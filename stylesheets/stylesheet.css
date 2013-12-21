@@ -269,6 +269,20 @@ Full-Width Styles
   margin: 0 auto;
 }
 
+#crumb_banner {
+  display: block;
+  position: absolute;
+  top:0;
+  left: 10px;
+  z-index: 10;
+  padding: 10px 10px 10px 50px;
+  background: url('../images/back.png') no-repeat 5% 50%;
+  color: #fff;
+  font-weight: 700;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
 #forkme_banner {
   display: block;
   position: absolute;
