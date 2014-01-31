@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="doxygenlogo.png"/></td>
     <td style="padding-left: 0.5em;">
-    <div id="projectbrief">v0.1.7</div>
+    <div id="projectbrief">v0.1.8</div>
     </td>
  </tr>
  </tbody>
@@ -135,6 +135,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6ca02416b9390704507c8646064f5ee1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_g_u_l_1_1_network_1_1_i_p_address.html#a6ca02416b9390704507c8646064f5ee1">IPAddress</a> (const <a class="el" href="class_c_g_u_l_1_1_string.html">CGUL::String</a> &amp;ip, <a class="el" href="namespace_c_g_u_l.html#a409a79f5238a8cde89bd03ad7eaae0af">UInt32</a> type)</td></tr>
 <tr class="memdesc:a6ca02416b9390704507c8646064f5ee1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to parse a string based on the given type but may result in invalid.  <a href="#a6ca02416b9390704507c8646064f5ee1"></a><br/></td></tr>
 <tr class="separator:a6ca02416b9390704507c8646064f5ee1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a703542ed2e20610dd7f4b75b452528ef"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a703542ed2e20610dd7f4b75b452528ef"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_g_u_l_1_1_network_1_1_i_p_address.html#a703542ed2e20610dd7f4b75b452528ef">MakeInvalid</a> ()</td></tr>
+<tr class="memdesc:a703542ed2e20610dd7f4b75b452528ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts this IP address to an invalid one, useful to reset a variable. <br/></td></tr>
+<tr class="separator:a703542ed2e20610dd7f4b75b452528ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae20e51e9bc278aeef8b68ce734ee9069"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_g_u_l_1_1_network_1_1_i_p_address.html#ae20e51e9bc278aeef8b68ce734ee9069">Set</a> (<a class="el" href="namespace_c_g_u_l.html#a409a79f5238a8cde89bd03ad7eaae0af">UInt32</a> address)</td></tr>
 <tr class="memdesc:ae20e51e9bc278aeef8b68ce734ee9069"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an IPv4 address from a 32 bit unsigned integer.  <a href="#ae20e51e9bc278aeef8b68ce734ee9069"></a><br/></td></tr>
 <tr class="separator:ae20e51e9bc278aeef8b68ce734ee9069"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -151,7 +155,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ab431db8de79393787cb45f89b9d19ee0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Accessor for the IP address type, resulting in one of the <a class="el" href="namespace_c_g_u_l_1_1_network_1_1_i_p_address_type.html" title="A list of supported IP address types.">Network::IPAddressType</a> values.  <a href="#ab431db8de79393787cb45f89b9d19ee0"></a><br/></td></tr>
 <tr class="separator:ab431db8de79393787cb45f89b9d19ee0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a26d5e653fa1577c8d6836f904268d2f2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_g_u_l_1_1_network_1_1_i_p_address.html#a26d5e653fa1577c8d6836f904268d2f2">IsValid</a> () const </td></tr>
-<tr class="memdesc:a26d5e653fa1577c8d6836f904268d2f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the IP address type is not <a class="el" href="namespace_c_g_u_l_1_1_network_1_1_i_p_address_type.html#abd69d28ab7b1003ce02b828790685ba8aab247ae1a1097d606ddddd558d646292" title="An invalid IP address.">IPAddressType::INVALID</a>.  <a href="#a26d5e653fa1577c8d6836f904268d2f2"></a><br/></td></tr>
+<tr class="memdesc:a26d5e653fa1577c8d6836f904268d2f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the IP address type is not <a class="el" href="namespace_c_g_u_l_1_1_network_1_1_i_p_address_type.html#ab896499d1256a3819d50852f2a90eabeaab247ae1a1097d606ddddd558d646292" title="An invalid IP address.">IPAddressType::INVALID</a>.  <a href="#a26d5e653fa1577c8d6836f904268d2f2"></a><br/></td></tr>
 <tr class="separator:a26d5e653fa1577c8d6836f904268d2f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa33bae5f0fc4b751d483061323d765b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_c_g_u_l_1_1_string.html">String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_g_u_l_1_1_network_1_1_i_p_address.html#aa33bae5f0fc4b751d483061323d765b4">ToString</a> () const </td></tr>
 <tr class="memdesc:aa33bae5f0fc4b751d483061323d765b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attempts to convert the IP address to a human readable string.  <a href="#aa33bae5f0fc4b751d483061323d765b4"></a><br/></td></tr>
@@ -165,6 +169,9 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a98994cf1829afb0b29e94c6b03665b3a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_c_g_u_l_1_1_network_1_1_i_p_address.html">IPAddress</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_g_u_l_1_1_network_1_1_i_p_address.html#a98994cf1829afb0b29e94c6b03665b3a">Invalid</a> ()</td></tr>
+<tr class="memdesc:a98994cf1829afb0b29e94c6b03665b3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an invalid IP address.  <a href="#a98994cf1829afb0b29e94c6b03665b3a"></a><br/></td></tr>
+<tr class="separator:a98994cf1829afb0b29e94c6b03665b3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0f84ef893763ea838a126d27626a1db"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_c_g_u_l_1_1_network_1_1_i_p_address.html">IPAddress</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_c_g_u_l_1_1_network_1_1_i_p_address.html#ae0f84ef893763ea838a126d27626a1db">CalculateBroadcast</a> (const <a class="el" href="class_c_g_u_l_1_1_network_1_1_i_p_address.html">IPAddress</a> &amp;ip, const <a class="el" href="class_c_g_u_l_1_1_network_1_1_i_p_address.html">IPAddress</a> &amp;netmask)</td></tr>
 <tr class="memdesc:ae0f84ef893763ea838a126d27626a1db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the broadcast address of a network given an address and netmask.  <a href="#ae0f84ef893763ea838a126d27626a1db"></a><br/></td></tr>
 <tr class="separator:ae0f84ef893763ea838a126d27626a1db"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -279,7 +286,7 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Attempts to parse a string based on the given type but may result in invalid. </p>
-<p>This constructor attempts to parse a string into the given IP address version. The type given can either be <a class="el" href="namespace_c_g_u_l_1_1_network_1_1_i_p_address_type.html#abd69d28ab7b1003ce02b828790685ba8a8c97c7198dad9f66dae66e7f2e990fe8" title="An IPv4 address, defined as a 32 bit unsigned integer.">IPAddressType::IPV4</a> or <a class="el" href="namespace_c_g_u_l_1_1_network_1_1_i_p_address_type.html#abd69d28ab7b1003ce02b828790685ba8a876daf1065b9b1699dc7a0d6048f7b56" title="An IPv6 address, defined as a 128 bit unsigned integer.">IPAddressType::IPV6</a>. If the conversion fails, the resulting address is invalid. </p>
+<p>This constructor attempts to parse a string into the given IP address version. The type given can either be <a class="el" href="namespace_c_g_u_l_1_1_network_1_1_i_p_address_type.html#ab896499d1256a3819d50852f2a90eabea8c97c7198dad9f66dae66e7f2e990fe8" title="An IPv4 address, defined as a 32 bit unsigned integer.">IPAddressType::IPV4</a> or <a class="el" href="namespace_c_g_u_l_1_1_network_1_1_i_p_address_type.html#ab896499d1256a3819d50852f2a90eabea876daf1065b9b1699dc7a0d6048f7b56" title="An IPv6 address, defined as a 128 bit unsigned integer.">IPAddressType::IPV6</a>. If the conversion fails, the resulting address is invalid. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">ip</td><td>A parsable IP address of the given type. </td></tr>
@@ -399,6 +406,33 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a98994cf1829afb0b29e94c6b03665b3a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_c_g_u_l_1_1_network_1_1_i_p_address.html">CGUL::Network::IPAddress</a> CGUL::Network::IPAddress::Invalid </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns an invalid IP address. </p>
+<p>The constructor gets the same thing (an invalid IP address). The purpose of this method is for explicitness in the code to allow self-documenting code to be written. </p>
+<dl class="section return"><dt>Returns</dt><dd>An invalid IP address. </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a26d5e653fa1577c8d6836f904268d2f2"></a>
 <div class="memitem">
 <div class="memproto">
@@ -412,7 +446,7 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Checks if the IP address type is not <a class="el" href="namespace_c_g_u_l_1_1_network_1_1_i_p_address_type.html#abd69d28ab7b1003ce02b828790685ba8aab247ae1a1097d606ddddd558d646292" title="An invalid IP address.">IPAddressType::INVALID</a>. </p>
+<p>Checks if the IP address type is not <a class="el" href="namespace_c_g_u_l_1_1_network_1_1_i_p_address_type.html#ab896499d1256a3819d50852f2a90eabeaab247ae1a1097d606ddddd558d646292" title="An invalid IP address.">IPAddressType::INVALID</a>. </p>
 <dl class="section return"><dt>Returns</dt><dd>True if the address is valid, false otherwise. </dd></dl>
 
 </div>
@@ -542,7 +576,7 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Attempts to convert the IP address to a human readable string. </p>
-<p>The conversion is based on the current IP address type (as returned by GetType). This method uses internal network functions to do the conversion, and upon failure will return a string of "Invalid" followed by the IP address type. If the IP address type is <a class="el" href="namespace_c_g_u_l_1_1_network_1_1_i_p_address_type.html#abd69d28ab7b1003ce02b828790685ba8aab247ae1a1097d606ddddd558d646292" title="An invalid IP address.">IPAddressType::INVALID</a> then this method simply returns "Invalid." </p>
+<p>The conversion is based on the current IP address type (as returned by GetType). This method uses internal network functions to do the conversion, and upon failure will return a string of "Invalid" followed by the IP address type. If the IP address type is <a class="el" href="namespace_c_g_u_l_1_1_network_1_1_i_p_address_type.html#ab896499d1256a3819d50852f2a90eabeaab247ae1a1097d606ddddd558d646292" title="An invalid IP address.">IPAddressType::INVALID</a> then this method simply returns "Invalid." </p>
 <dl class="section return"><dt>Returns</dt><dd>A string of the human readable IP address. </dd></dl>
 
 </div>
@@ -637,8 +671,8 @@ Friends</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>C:/Users/Joshua/Projamin/CGULMath/src/CGUL/Network/<a class="el" href="_i_p_address_8hpp_source.html">IPAddress.hpp</a></li>
-<li>C:/Users/Joshua/Projamin/CGULMath/src/CGUL/Network/<a class="el" href="_i_p_address_8cpp.html">IPAddress.cpp</a></li>
+<li>C:/Programming/Cpp/Zethes/CGUL/src/CGUL/Network/<a class="el" href="_i_p_address_8hpp_source.html">IPAddress.hpp</a></li>
+<li>C:/Programming/Cpp/Zethes/CGUL/src/CGUL/Network/<a class="el" href="_i_p_address_8cpp.html">IPAddress.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -646,7 +680,7 @@ Friends</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_c_g_u_l.html">CGUL</a></li><li class="navelem"><a class="el" href="namespace_c_g_u_l_1_1_network.html">Network</a></li><li class="navelem"><a class="el" href="class_c_g_u_l_1_1_network_1_1_i_p_address.html">IPAddress</a></li>
-    <li class="footer">Generated on Sun Dec 22 2013 20:51:40 by
+    <li class="footer">Generated on Thu Jan 30 2014 18:27:54 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.2 </li>
   </ul>

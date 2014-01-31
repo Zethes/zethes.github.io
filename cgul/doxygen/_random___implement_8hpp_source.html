@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>C:/Users/Joshua/Projamin/CGULMath/src/CGUL/Math/Random_Implement.hpp Source File</title>
+<title>C:/Programming/Cpp/Zethes/CGUL/src/CGUL/Math/Random_Implement.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="doxygenlogo.png"/></td>
     <td style="padding-left: 0.5em;">
-    <div id="projectbrief">v0.1.7</div>
+    <div id="projectbrief">v0.1.8</div>
     </td>
  </tr>
  </tbody>
@@ -107,8 +107,8 @@ $(document).ready(function(){initNavTree('_random___implement_8hpp_source.html',
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">// Copyright (C) 2012-2014, Joshua Brookover and Amber Thrall</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">// All rights reserved.</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;ctime&gt;</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;cmath&gt;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;cmath&gt;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;../Utility/Timer.hpp&quot;</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;_CGUL_INLINE_IMPLEMENT <a class="code" href="namespace_c_g_u_l.html#ac639496c50a222686e3e53d5f9626094" title="A 32 bit (4 bytes) floating point number.">CGUL::Float32</a> CGUL::Random::UniformDist(<a class="code" href="namespace_c_g_u_l.html#ac639496c50a222686e3e53d5f9626094" title="A 32 bit (4 bytes) floating point number.">Float32</a> a, <a class="code" href="namespace_c_g_u_l.html#ac639496c50a222686e3e53d5f9626094" title="A 32 bit (4 bytes) floating point number.">Float32</a> b, <a class="code" href="namespace_c_g_u_l.html#ac639496c50a222686e3e53d5f9626094" title="A 32 bit (4 bytes) floating point number.">Float32</a> u)</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;{</div>
@@ -177,7 +177,7 @@ $(document).ready(function(){initNavTree('_random___implement_8hpp_source.html',
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;_CGUL_INLINE_IMPLEMENT CGUL::Random::Random()</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;{</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    this-&gt;seed = (<a class="code" href="namespace_c_g_u_l.html#a409a79f5238a8cde89bd03ad7eaae0af" title="A 32 bit (4 bytes) unsigned integer number.">UInt32</a>)std::time(0);</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    this-&gt;seed = (<a class="code" href="namespace_c_g_u_l.html#a409a79f5238a8cde89bd03ad7eaae0af" title="A 32 bit (4 bytes) unsigned integer number.">UInt32</a>)<a class="code" href="class_c_g_u_l_1_1_timer.html#a7b8b84f6f570c84cc95d77e2862e6c03" title="Gets a high precision timestamp.">Timer::GetRawTime</a>();</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    this-&gt;multiplier = 16807;</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    this-&gt;addition = 0;</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    this-&gt;modulus = 2147483647;</div>
@@ -215,27 +215,38 @@ $(document).ready(function(){initNavTree('_random___implement_8hpp_source.html',
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    <span class="keywordflow">return</span> GetInteger() / <a class="code" href="namespace_c_g_u_l.html#ac639496c50a222686e3e53d5f9626094" title="A 32 bit (4 bytes) floating point number.">Float32</a>(modulus);</div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;}</div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;_CGUL_INLINE_IMPLEMENT <a class="code" href="namespace_c_g_u_l.html#ac639496c50a222686e3e53d5f9626094" title="A 32 bit (4 bytes) floating point number.">CGUL::Float32</a> CGUL::Random::GetUniform(<a class="code" href="namespace_c_g_u_l.html#ac639496c50a222686e3e53d5f9626094" title="A 32 bit (4 bytes) floating point number.">Float32</a> a, <a class="code" href="namespace_c_g_u_l.html#ac639496c50a222686e3e53d5f9626094" title="A 32 bit (4 bytes) floating point number.">Float32</a> b)</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;_CGUL_INLINE_IMPLEMENT <a class="code" href="class_c_g_u_l_1_1_string.html" title="A Utf-8 compliant string.">CGUL::String</a> CGUL::Random::GetString(<span class="keyword">const</span> String&amp; characters, <a class="code" href="namespace_c_g_u_l.html#a409a79f5238a8cde89bd03ad7eaae0af" title="A 32 bit (4 bytes) unsigned integer number.">UInt32</a> count)</div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;{</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    <span class="keywordflow">return</span> GetDecimal() * (b - a) + a;</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;}</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;_CGUL_INLINE_IMPLEMENT <a class="code" href="namespace_c_g_u_l.html#ac639496c50a222686e3e53d5f9626094" title="A 32 bit (4 bytes) floating point number.">CGUL::Float32</a> CGUL::Random::GetExponential(<a class="code" href="namespace_c_g_u_l.html#ac639496c50a222686e3e53d5f9626094" title="A 32 bit (4 bytes) floating point number.">Float32</a> beta)</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;{</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    <span class="keywordflow">return</span> ExponentialDist(beta, GetDecimal());</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;}</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;_CGUL_INLINE_IMPLEMENT <a class="code" href="namespace_c_g_u_l.html#ac639496c50a222686e3e53d5f9626094" title="A 32 bit (4 bytes) floating point number.">CGUL::Float32</a> CGUL::Random::GetWeibull(<a class="code" href="namespace_c_g_u_l.html#ac639496c50a222686e3e53d5f9626094" title="A 32 bit (4 bytes) floating point number.">Float32</a> a, <a class="code" href="namespace_c_g_u_l.html#ac639496c50a222686e3e53d5f9626094" title="A 32 bit (4 bytes) floating point number.">Float32</a> b, <a class="code" href="namespace_c_g_u_l.html#ac639496c50a222686e3e53d5f9626094" title="A 32 bit (4 bytes) floating point number.">Float32</a> c)</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;{</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    <span class="keywordflow">return</span> WeibullDist(a, b, c, GetDecimal());</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;}</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    String result;</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    <a class="code" href="namespace_c_g_u_l.html#a056717cb03e8a7e3d80e0696987016ea" title="A system-dependent sized integer capable of holding addresses in memory.">Size</a> length = characters.GetSize();</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    <span class="keywordflow">for</span> (<a class="code" href="namespace_c_g_u_l.html#a409a79f5238a8cde89bd03ad7eaae0af" title="A 32 bit (4 bytes) unsigned integer number.">UInt32</a> c = 0; c &lt; count; c++)</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    {</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        result += characters[GetInteger() % length];</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    }</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;}</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;_CGUL_INLINE_IMPLEMENT <a class="code" href="namespace_c_g_u_l.html#ac639496c50a222686e3e53d5f9626094" title="A 32 bit (4 bytes) floating point number.">CGUL::Float32</a> CGUL::Random::GetUniform(<a class="code" href="namespace_c_g_u_l.html#ac639496c50a222686e3e53d5f9626094" title="A 32 bit (4 bytes) floating point number.">Float32</a> a, <a class="code" href="namespace_c_g_u_l.html#ac639496c50a222686e3e53d5f9626094" title="A 32 bit (4 bytes) floating point number.">Float32</a> b)</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;{</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    <span class="keywordflow">return</span> GetDecimal() * (b - a) + a;</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;}</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;_CGUL_INLINE_IMPLEMENT <a class="code" href="namespace_c_g_u_l.html#ac639496c50a222686e3e53d5f9626094" title="A 32 bit (4 bytes) floating point number.">CGUL::Float32</a> CGUL::Random::GetExponential(<a class="code" href="namespace_c_g_u_l.html#ac639496c50a222686e3e53d5f9626094" title="A 32 bit (4 bytes) floating point number.">Float32</a> beta)</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;{</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    <span class="keywordflow">return</span> ExponentialDist(beta, GetDecimal());</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;}</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;_CGUL_INLINE_IMPLEMENT <a class="code" href="namespace_c_g_u_l.html#ac639496c50a222686e3e53d5f9626094" title="A 32 bit (4 bytes) floating point number.">CGUL::Float32</a> CGUL::Random::GetWeibull(<a class="code" href="namespace_c_g_u_l.html#ac639496c50a222686e3e53d5f9626094" title="A 32 bit (4 bytes) floating point number.">Float32</a> a, <a class="code" href="namespace_c_g_u_l.html#ac639496c50a222686e3e53d5f9626094" title="A 32 bit (4 bytes) floating point number.">Float32</a> b, <a class="code" href="namespace_c_g_u_l.html#ac639496c50a222686e3e53d5f9626094" title="A 32 bit (4 bytes) floating point number.">Float32</a> c)</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;{</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    <span class="keywordflow">return</span> WeibullDist(a, b, c, GetDecimal());</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_c60c57d1c5c1dd55152172d544721760.html">CGUL</a></li><li class="navelem"><a class="el" href="dir_07c3528eb2e99a8191f3b0acc2d86e96.html">Math</a></li><li class="navelem"><a class="el" href="_random___implement_8hpp.html">Random_Implement.hpp</a></li>
-    <li class="footer">Generated on Sun Dec 22 2013 20:51:39 by
+    <li class="footer">Generated on Thu Jan 30 2014 18:27:52 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.2 </li>
   </ul>

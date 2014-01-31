@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>C:/Users/Joshua/Projamin/CGULMath/src/CGUL/Math/Quaternion_Implement.hpp Source File</title>
+<title>C:/Programming/Cpp/Zethes/CGUL/src/CGUL/Math/Quaternion_Implement.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="doxygenlogo.png"/></td>
     <td style="padding-left: 0.5em;">
-    <div id="projectbrief">v0.1.7</div>
+    <div id="projectbrief">v0.1.8</div>
     </td>
  </tr>
  </tbody>
@@ -107,47 +107,76 @@ $(document).ready(function(){initNavTree('_quaternion___implement_8hpp_source.ht
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">// Copyright (C) 2012-2014, Joshua Brookover and Amber Thrall</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">// All rights reserved.</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_math_8hpp.html">Math.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_vector2_8hpp.html">Vector2.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_vector3_8hpp.html">Vector3.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_matrix_8hpp.html">Matrix.hpp</a>&quot;</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">template</span>&lt; <span class="keyword">typename</span> Type &gt;</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<a class="code" href="struct_c_g_u_l_1_1_quaternion_t.html" title="Quaternion.">CGUL::QuaternionT&lt; Type &gt;::QuaternionT</a>()</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;{</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    w = 1;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    x = y = z = 0;</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;}</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keyword">template</span>&lt; <span class="keyword">typename</span> Type &gt;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<a class="code" href="struct_c_g_u_l_1_1_quaternion_t.html" title="Quaternion.">CGUL::QuaternionT&lt; Type &gt;::QuaternionT</a>(Type w, Type x, Type y, Type z)</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;{</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    this-&gt;w = w;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    this-&gt;x = x;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    this-&gt;y = y;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    this-&gt;z = z;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;}</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="keyword">template</span>&lt; <span class="keyword">typename</span> Type &gt;</div>
-<div class="line"><a name="l00037"></a><span class="lineno"><a class="code" href="struct_c_g_u_l_1_1_quaternion_t.html#a5087c2d951ed53dc6c1a969d3ec95e31">   37</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="struct_c_g_u_l_1_1_quaternion_t.html#a5087c2d951ed53dc6c1a969d3ec95e31" title="Normalizes the quaternion.">CGUL::QuaternionT&lt; Type &gt;::Normalize</a>()</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;{</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;}</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="keyword">template</span>&lt; <span class="keyword">typename</span> Type &gt;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="keywordtype">void</span> <a class="code" href="struct_c_g_u_l_1_1_quaternion_t.html" title="Quaternion.">CGUL::QuaternionT&lt; Type &gt;::RotateOnAxis</a>(<span class="keyword">const</span> <a class="code" href="struct_c_g_u_l_1_1_vector3_t.html" title="A three dimensional 32 bit floating point vector.">Vector3T&lt; Type &gt;</a>&amp; axis, Type angle)</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;{</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    w = <a class="code" href="namespace_c_g_u_l_1_1_math.html#ac01054f33e4c3ffe7f911d903072d198" title="Calculates the cosine of x.">Math::Cos</a>(angle / 2.0f);</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    x = <a class="code" href="namespace_c_g_u_l_1_1_math.html#abf069f7e38f5a87ec43760d7b70310c1" title="Calculates the sine of x.">Math::Sin</a>(angle / 2.0f) * axis.x;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    y = <a class="code" href="namespace_c_g_u_l_1_1_math.html#abf069f7e38f5a87ec43760d7b70310c1" title="Calculates the sine of x.">Math::Sin</a>(angle / 2.0f) * axis.y;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    z = <a class="code" href="namespace_c_g_u_l_1_1_math.html#abf069f7e38f5a87ec43760d7b70310c1" title="Calculates the sine of x.">Math::Sin</a>(angle / 2.0f) * axis.z;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;}</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment">// CGUL Includes</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;../Math/Math.hpp&quot;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &quot;../Math/Matrix.hpp&quot;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;../Math/Vector2.hpp&quot;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &quot;../Math/Vector3.hpp&quot;</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">template</span>&lt; <span class="keyword">typename</span> Type &gt;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<a class="code" href="struct_c_g_u_l_1_1_quaternion_t.html" title="Quaternion.">CGUL::QuaternionT&lt; Type &gt;::QuaternionT</a>()</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;{</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    w = 1;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    x = y = z = 0;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;}</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">template</span>&lt; <span class="keyword">typename</span> Type &gt;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<a class="code" href="struct_c_g_u_l_1_1_quaternion_t.html" title="Quaternion.">CGUL::QuaternionT&lt; Type &gt;::QuaternionT</a>(Type w, Type x, Type y, Type z)</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;{</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    this-&gt;w = w;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    this-&gt;x = x;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    this-&gt;y = y;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    this-&gt;z = z;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;}</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keyword">template</span>&lt; <span class="keyword">typename</span> Type &gt;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<a class="code" href="struct_c_g_u_l_1_1_quaternion_t.html" title="Quaternion.">CGUL::QuaternionT&lt; Type &gt;</a> <a class="code" href="struct_c_g_u_l_1_1_quaternion_t.html" title="Quaternion.">CGUL::QuaternionT&lt; Type &gt;::operator*</a>(<span class="keyword">const</span> <a class="code" href="struct_quaternion_t.html">QuaternionT&lt; Type &gt;</a>&amp; operand)<span class="keyword"> const</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keyword"></span>{</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="struct_quaternion_t.html">QuaternionT&lt; Type &gt;</a>(w * operand.w - x * operand.x - y * operand.y - z * operand.z,</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                               w * operand.x + x * operand.w + y * operand.z - z * operand.y,</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                               w * operand.y - x * operand.z + y * operand.w + z * operand.x,</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                               w * operand.z + x * operand.y - y * operand.x + z * operand.w);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;}</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="keyword">template</span>&lt; <span class="keyword">typename</span> Type &gt;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<a class="code" href="struct_c_g_u_l_1_1_quaternion_t.html" title="Quaternion.">CGUL::QuaternionT&lt; Type &gt;</a>&amp; <a class="code" href="struct_c_g_u_l_1_1_quaternion_t.html" title="Quaternion.">CGUL::QuaternionT&lt; Type &gt;::operator*=</a>(<span class="keyword">const</span> <a class="code" href="struct_quaternion_t.html">QuaternionT</a>&amp; operand)</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;{</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    *<span class="keyword">this</span> = (*this) * operand;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;}</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="keyword">template</span>&lt; <span class="keyword">typename</span> Type &gt;</div>
+<div class="line"><a name="l00053"></a><span class="lineno"><a class="code" href="struct_c_g_u_l_1_1_quaternion_t.html#a5087c2d951ed53dc6c1a969d3ec95e31">   53</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="struct_c_g_u_l_1_1_quaternion_t.html#a5087c2d951ed53dc6c1a969d3ec95e31" title="Normalizes the quaternion.">CGUL::QuaternionT&lt; Type &gt;::Normalize</a>()</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;{</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    Type distance = w * w + x * x + y * y + z * z;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordflow">if</span> (distance == 0)</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    {</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        w = 1;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    }</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    {</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        distance = 1.0 / <a class="code" href="namespace_c_g_u_l_1_1_math.html#aabe42f02ced412b8bf7aaa84f1cf0fd9" title="Calculates the square root of a number.">Math::Sqrt</a>(distance);</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        w *= distance;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        x *= distance;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        y *= distance;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        z *= distance;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    }</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;}</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="keyword">template</span>&lt; <span class="keyword">typename</span> Type &gt;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="keywordtype">void</span> <a class="code" href="struct_c_g_u_l_1_1_quaternion_t.html" title="Quaternion.">CGUL::QuaternionT&lt; Type &gt;::RotateOnAxis</a>(<span class="keyword">const</span> <a class="code" href="struct_c_g_u_l_1_1_vector3_t.html" title="A three dimensional 32 bit floating point vector.">Vector3T&lt; Type &gt;</a>&amp; axis, Type angle)</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;{</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    x = <a class="code" href="namespace_c_g_u_l_1_1_math.html#abf069f7e38f5a87ec43760d7b70310c1" title="Calculates the sine of x.">Math::Sin</a>(angle / Type(2.0)) * axis.x;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    y = <a class="code" href="namespace_c_g_u_l_1_1_math.html#abf069f7e38f5a87ec43760d7b70310c1" title="Calculates the sine of x.">Math::Sin</a>(angle / Type(2.0)) * axis.y;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    z = <a class="code" href="namespace_c_g_u_l_1_1_math.html#abf069f7e38f5a87ec43760d7b70310c1" title="Calculates the sine of x.">Math::Sin</a>(angle / Type(2.0)) * axis.z;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    w = <a class="code" href="namespace_c_g_u_l_1_1_math.html#ac01054f33e4c3ffe7f911d903072d198" title="Calculates the cosine of x.">Math::Cos</a>(angle / Type(2.0));</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_c60c57d1c5c1dd55152172d544721760.html">CGUL</a></li><li class="navelem"><a class="el" href="dir_07c3528eb2e99a8191f3b0acc2d86e96.html">Math</a></li><li class="navelem"><a class="el" href="_quaternion___implement_8hpp.html">Quaternion_Implement.hpp</a></li>
-    <li class="footer">Generated on Sun Dec 22 2013 20:51:39 by
+    <li class="footer">Generated on Thu Jan 30 2014 18:27:51 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.2 </li>
   </ul>

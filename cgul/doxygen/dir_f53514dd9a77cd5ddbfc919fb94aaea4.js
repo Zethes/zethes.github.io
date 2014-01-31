@@ -10,7 +10,7 @@ var dir_f53514dd9a77cd5ddbfc919fb94aaea4 =
     [ "FileException.hpp", "_file_exception_8hpp.html", "_file_exception_8hpp" ],
     [ "ImageException.cpp", "_image_exception_8cpp.html", null ],
     [ "ImageException.hpp", "_image_exception_8hpp.html", "_image_exception_8hpp" ],
-    [ "NetworkException.cpp", "_network_exception_8cpp.html", null ],
+    [ "NetworkException.cpp", "_network_exception_8cpp.html", "_network_exception_8cpp" ],
     [ "NetworkException.hpp", "_network_exception_8hpp.html", "_network_exception_8hpp" ],
     [ "OpenGLException.cpp", "_open_g_l_exception_8cpp.html", null ],
     [ "OpenGLException.hpp", "_open_g_l_exception_8hpp.html", "_open_g_l_exception_8hpp" ]

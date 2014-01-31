@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="doxygenlogo.png"/></td>
     <td style="padding-left: 0.5em;">
-    <div id="projectbrief">v0.1.7</div>
+    <div id="projectbrief">v0.1.8</div>
     </td>
  </tr>
  </tbody>
@@ -121,6 +121,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abcf90dd0c3ad1e33eabec540bfff8b08"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abcf90dd0c3ad1e33eabec540bfff8b08"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>QuaternionT</b> (Type w, Type x, Type y, Type z)</td></tr>
 <tr class="separator:abcf90dd0c3ad1e33eabec540bfff8b08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a374cfcf2dde23ec7b83b662bfba99116"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a374cfcf2dde23ec7b83b662bfba99116"></a>
+<a class="el" href="struct_c_g_u_l_1_1_quaternion_t.html">QuaternionT</a>&lt; Type &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>operator*</b> (const <a class="el" href="struct_c_g_u_l_1_1_quaternion_t.html">QuaternionT</a>&lt; Type &gt; &amp;operand) const </td></tr>
+<tr class="separator:a374cfcf2dde23ec7b83b662bfba99116"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa730fd8c27bb8c89a02d82da0c9e2156"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa730fd8c27bb8c89a02d82da0c9e2156"></a>
+<a class="el" href="struct_c_g_u_l_1_1_quaternion_t.html">QuaternionT</a>&lt; Type &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator*=</b> (const <a class="el" href="struct_c_g_u_l_1_1_quaternion_t.html">QuaternionT</a>&lt; Type &gt; &amp;operand)</td></tr>
+<tr class="separator:aa730fd8c27bb8c89a02d82da0c9e2156"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5087c2d951ed53dc6c1a969d3ec95e31"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_g_u_l_1_1_quaternion_t.html#a5087c2d951ed53dc6c1a969d3ec95e31">Normalize</a> ()</td></tr>
 <tr class="memdesc:a5087c2d951ed53dc6c1a969d3ec95e31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Normalizes the quaternion.  <a href="#a5087c2d951ed53dc6c1a969d3ec95e31"></a><br/></td></tr>
 <tr class="separator:a5087c2d951ed53dc6c1a969d3ec95e31"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -130,36 +136,21 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>RotateOnAxis</b> (con
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ae585c6a6eb24ef84748a06ea6d88453b"><td class="memItemLeft" ><a class="anchor" id="ae585c6a6eb24ef84748a06ea6d88453b"></a>
-union {</td></tr>
-<tr class="memitem:a869bd694c3aa370b25d7d59aa90e3a54"><td class="memItemLeft" ><a class="anchor" id="a869bd694c3aa370b25d7d59aa90e3a54"></a>
-&#160;&#160;&#160;struct {</td></tr>
-<tr class="memitem:a681c179ad5118719db367d5a21006cfa"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;Type&#160;&#160;&#160;<b>r</b></td></tr>
-<tr class="separator:a681c179ad5118719db367d5a21006cfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a97adcb0fb94cd406ad52ca2094166067"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;Type&#160;&#160;&#160;<b>i</b></td></tr>
-<tr class="separator:a97adcb0fb94cd406ad52ca2094166067"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8831c2d457198c7afc3c2f97e2472508"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;Type&#160;&#160;&#160;<b>j</b></td></tr>
-<tr class="separator:a8831c2d457198c7afc3c2f97e2472508"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5abe8cb628f73426527524b019fef39"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;Type&#160;&#160;&#160;<b>k</b></td></tr>
-<tr class="separator:af5abe8cb628f73426527524b019fef39"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a869bd694c3aa370b25d7d59aa90e3a54"><td class="memItemLeft" valign="top">&#160;&#160;&#160;}&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="separator:a869bd694c3aa370b25d7d59aa90e3a54"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a97fdce1e3f01cafb7c1dda83c95fc730"><td class="memItemLeft" ><a class="anchor" id="a97fdce1e3f01cafb7c1dda83c95fc730"></a>
-&#160;&#160;&#160;struct {</td></tr>
-<tr class="memitem:a051a55dd089b1045a5524be8a9d2fd73"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;Type&#160;&#160;&#160;<b>w</b></td></tr>
-<tr class="separator:a051a55dd089b1045a5524be8a9d2fd73"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add6bb7bd9ecc353105610170133343b7"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;Type&#160;&#160;&#160;<b>x</b></td></tr>
-<tr class="separator:add6bb7bd9ecc353105610170133343b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e1de15aa21cba0d6f467eb0c6f830c2"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;Type&#160;&#160;&#160;<b>y</b></td></tr>
-<tr class="separator:a8e1de15aa21cba0d6f467eb0c6f830c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a038d0400198a09034d0ee2a13690594d"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;Type&#160;&#160;&#160;<b>z</b></td></tr>
-<tr class="separator:a038d0400198a09034d0ee2a13690594d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a97fdce1e3f01cafb7c1dda83c95fc730"><td class="memItemLeft" valign="top">&#160;&#160;&#160;}&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="separator:a97fdce1e3f01cafb7c1dda83c95fc730"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae252aedb36ad935f0def2124d51eacbf"><td class="memItemLeft" >&#160;&#160;&#160;Type&#160;&#160;&#160;<b>m</b> [4]</td></tr>
-<tr class="separator:ae252aedb36ad935f0def2124d51eacbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae585c6a6eb24ef84748a06ea6d88453b"><td class="memItemLeft" valign="top">};&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="separator:ae585c6a6eb24ef84748a06ea6d88453b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a9512419fb3d89517eef43247c925ff"><td class="memItemLeft" ><a class="anchor" id="a5a9512419fb3d89517eef43247c925ff"></a>
+struct {</td></tr>
+<tr class="memitem:ae6dd058e9e6388fb810ffc745c616713"><td class="memItemLeft" >&#160;&#160;&#160;Type&#160;&#160;&#160;<b>w</b></td></tr>
+<tr class="separator:ae6dd058e9e6388fb810ffc745c616713"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0c84ceeff538f4f44f5a163ec2ba851"><td class="memItemLeft" >&#160;&#160;&#160;Type&#160;&#160;&#160;<b>x</b></td></tr>
+<tr class="separator:af0c84ceeff538f4f44f5a163ec2ba851"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adda5b881d45120a5ac07c5a5b8f793ed"><td class="memItemLeft" >&#160;&#160;&#160;Type&#160;&#160;&#160;<b>y</b></td></tr>
+<tr class="separator:adda5b881d45120a5ac07c5a5b8f793ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a314f36018beb3be46e81ab00b9222315"><td class="memItemLeft" >&#160;&#160;&#160;Type&#160;&#160;&#160;<b>z</b></td></tr>
+<tr class="separator:a314f36018beb3be46e81ab00b9222315"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a9512419fb3d89517eef43247c925ff"><td class="memItemLeft" valign="top">};&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a5a9512419fb3d89517eef43247c925ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a828020ad5237ee778373c7e90ecb6123"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a828020ad5237ee778373c7e90ecb6123"></a>
+Type&#160;</td><td class="memItemRight" valign="bottom"><b>m</b> [4]</td></tr>
+<tr class="separator:a828020ad5237ee778373c7e90ecb6123"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;typename Type&gt;<br/>
@@ -190,8 +181,8 @@ template&lt;typename Type &gt; </div>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following files:<ul>
-<li>C:/Users/Joshua/Projamin/CGULMath/src/CGUL/Math/<a class="el" href="_quaternion_8hpp_source.html">Quaternion.hpp</a></li>
-<li>C:/Users/Joshua/Projamin/CGULMath/src/CGUL/Math/<a class="el" href="_quaternion___implement_8hpp_source.html">Quaternion_Implement.hpp</a></li>
+<li>C:/Programming/Cpp/Zethes/CGUL/src/CGUL/Math/<a class="el" href="_quaternion_8hpp_source.html">Quaternion.hpp</a></li>
+<li>C:/Programming/Cpp/Zethes/CGUL/src/CGUL/Math/<a class="el" href="_quaternion___implement_8hpp_source.html">Quaternion_Implement.hpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -199,7 +190,7 @@ template&lt;typename Type &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_c_g_u_l.html">CGUL</a></li><li class="navelem"><a class="el" href="struct_c_g_u_l_1_1_quaternion_t.html">QuaternionT</a></li>
-    <li class="footer">Generated on Sun Dec 22 2013 20:51:40 by
+    <li class="footer">Generated on Thu Jan 30 2014 18:27:54 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.2 </li>
   </ul>

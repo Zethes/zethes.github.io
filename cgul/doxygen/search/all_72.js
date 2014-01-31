@@ -2,6 +2,7 @@ var searchData=
 [
   ['r',['r',['../struct_c_g_u_l_1_1_color_t.html#a292479ef111362ab9684d77d7fa4da1c',1,'CGUL::ColorT']]],
   ['radtodeg',['RadToDeg',['../namespace_c_g_u_l_1_1_math.html#ad853e9f1f709b6e25e8f7051ec327fa6',1,'CGUL::Math']]],
+  ['ramanujansoldner',['RamanujanSoldner',['../namespace_c_g_u_l_1_1_math_1_1_constants.html#a2c68eb5e91c2d9e4f8041c4bdaac8e4f',1,'CGUL::Math::Constants']]],
   ['random',['Random',['../class_c_g_u_l_1_1_random.html',1,'CGUL']]],
   ['random_2ehpp',['Random.hpp',['../_random_8hpp.html',1,'']]],
   ['random_5fimplement_2ehpp',['Random_Implement.hpp',['../_random___implement_8hpp.html',1,'']]],
@@ -12,6 +13,7 @@ var searchData=
   ['readtext',['ReadText',['../namespace_c_g_u_l_1_1_file.html#a176c83851dd243f2277909af2457cac4',1,'CGUL::File']]],
   ['receive',['Receive',['../class_c_g_u_l_1_1_network_1_1_socket_t_c_p.html#accca3c42932386ed96f6616eca8319da',1,'CGUL::Network::SocketTCP::Receive()'],['../class_c_g_u_l_1_1_network_1_1_socket_u_d_p.html#a24db81e87410e778238a9ce86b87aab9',1,'CGUL::Network::SocketUDP::Receive()']]],
   ['receivefrom',['ReceiveFrom',['../class_c_g_u_l_1_1_network_1_1_socket_u_d_p.html#a74e2d6a3bced48d2bd71c32225118611',1,'CGUL::Network::SocketUDP']]],
+  ['reciprocalfibonacci',['ReciprocalFibonacci',['../namespace_c_g_u_l_1_1_math_1_1_constants.html#adee6d7124fa449ac6a5b27818d06fd7f',1,'CGUL::Math::Constants']]],
   ['red',['RED',['../namespace_c_g_u_l_1_1_g_l.html#a7530696821b087fff111733004e303a7',1,'CGUL::GL']]],
   ['regex_2ecpp',['Regex.cpp',['../_regex_8cpp.html',1,'']]],
   ['regex_2ehpp',['Regex.hpp',['../_regex_8hpp.html',1,'']]],

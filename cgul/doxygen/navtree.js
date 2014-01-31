@@ -35,7 +35,7 @@ var NAVTREE =
       [ "Namespace Members", "namespacemembers.html", [
         [ "All", "namespacemembers.html", "namespacemembers_dup" ],
         [ "Functions", "namespacemembers_func.html", null ],
-        [ "Variables", "namespacemembers_vars.html", null ],
+        [ "Variables", "namespacemembers_vars.html", "namespacemembers_vars" ],
         [ "Typedefs", "namespacemembers_type.html", null ],
         [ "Enumerator", "namespacemembers_eval.html", null ]
       ] ]
@@ -60,21 +60,19 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 ".html",
-"_colors_8hpp.html#a2c7ec47b2ed45d5172b0e9177d2716e0",
-"_colors_8hpp.html#a6d963c8aaa1c45f100489e582dfa853f",
-"_colors_8hpp.html#ab8b3eb91f0f0447621e5f97e8fb17a9b",
-"_colors_8hpp.html#afbab9a4531936a1ac2f3e767913bb904",
-"_g_l_8hpp.html#a3562d8da863218ce6db277962f84a664",
-"_g_l_8hpp.html#ac3572bfb2a553aa2b4e61219fcddc8c5",
-"_image_exception_8cpp.html",
-"_math_8hpp.html#a7af8f5c5718f2f4c054826b80ff40c38",
-"_raw_g_l_8hpp.html#a440b7f9e83fa7b40c74e9003977eaad2",
-"class_c_g_u_l_1_1_assimp_1_1_exporter.html",
-"class_c_g_u_l_1_1_image.html#ab8f16ba489edbea45ee12139af74233d",
-"class_c_g_u_l_1_1_open_g_l_1_1_program.html#ab1fcf7f4b0821c547ea609304b8570a7",
-"class_c_g_u_l_1_1_window.html#ae9a39d91f9d6a15b0bf8bfda5443074e",
-"struct_c_g_u_l_1_1_network_1_1_adapter.html#a2d93fc2be8d08e816159b71fe0881dc9",
-"struct_c_g_u_l_1_1_vector4_t.html#a79f2b3d7da2f472d75b780ea4222e6ed"
+"_colors_8hpp.html#a3fec7702fb6e0da4619ea4ad2fea1525",
+"_colors_8hpp.html#a804706459e2eff8111ceb4fb6e9880a4",
+"_colors_8hpp.html#ac9b2ca3e72603eedfe6345a1e0abba32",
+"_file_8hpp.html#a7f33a1467d5a7b24cfd5e8aaf6358d4b",
+"_g_l_8hpp.html#a60d96ca3c38e26efeace728f36cc9795",
+"_g_l_8hpp.html#aeeed0c73b62f8c734e3359bd387fb72b",
+"_j_s_o_n_8hpp.html#aeab70b4c7908a43a7da652421b5748ce",
+"_raw_g_l_8hpp.html#a17749f0fd44fc67f1564941790084587",
+"class_c_g_u_l_1_1_glyph.html",
+"class_c_g_u_l_1_1_open_g_l_1_1_frame_buffer.html#aeb6b8d8905a3941a8705b654f794a494",
+"dir_4c7832bda75a9b702f2e9a8326e78d90.html",
+"struct_c_g_u_l_1_1_matrix_t.html#afdd550d41a361c2e446dd44728f52e06",
+"struct_c_g_u_l_1_1_vector4_t.html#a69e3229335e1c66e9d344cd8761c9266"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

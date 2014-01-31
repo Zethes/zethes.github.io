@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['assimp',['Assimp',['../namespace_c_g_u_l_1_1_assimp.html',1,'CGUL']]],
   ['cgul',['CGUL',['../namespace_c_g_u_l.html',1,'']]],
+  ['constants',['Constants',['../namespace_c_g_u_l_1_1_math_1_1_constants.html',1,'CGUL::Math']]],
   ['datatypes',['DataTypes',['../namespace_c_g_u_l_1_1_data_types.html',1,'CGUL']]],
   ['file',['File',['../namespace_c_g_u_l_1_1_file.html',1,'CGUL']]],
   ['gl',['GL',['../namespace_c_g_u_l_1_1_g_l.html',1,'CGUL']]],

@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['camera_2ecpp',['Camera.cpp',['../_camera_8cpp.html',1,'']]],
-  ['camera_2ehpp',['Camera.hpp',['../_camera_8hpp.html',1,'']]],
   ['check_2ecpp',['Check.cpp',['../_check_8cpp.html',1,'']]],
   ['color_2ehpp',['Color.hpp',['../_color_8hpp.html',1,'']]],
   ['color_5fimplement_2ehpp',['Color_Implement.hpp',['../_color___implement_8hpp.html',1,'']]],

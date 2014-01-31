@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['camera',['Camera',['../class_c_g_u_l_1_1_assimp_1_1_camera.html',1,'CGUL::Assimp']]],
   ['colort',['ColorT',['../struct_c_g_u_l_1_1_color_t.html',1,'CGUL']]],
   ['colort_3c_20byte_20_3e',['ColorT&lt; Byte &gt;',['../struct_c_g_u_l_1_1_color_t.html',1,'CGUL']]],
   ['container',['Container',['../class_c_g_u_l_1_1_container.html',1,'CGUL']]],

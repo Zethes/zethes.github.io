@@ -2,7 +2,8 @@ var searchData=
 [
   ['tan',['Tan',['../namespace_c_g_u_l_1_1_math.html#adcd2c33ad5a9dc301dfefd368a8b84d3',1,'CGUL::Math']]],
   ['tanh',['Tanh',['../namespace_c_g_u_l_1_1_math.html#afb1aafdb27ae2ace0079b190ebc60e58',1,'CGUL::Math']]],
-  ['tau',['Tau',['../namespace_c_g_u_l_1_1_math.html#af4ccd3ae64e654ced887204119dced26',1,'CGUL::Math']]],
+  ['tau',['Tau',['../namespace_c_g_u_l_1_1_math_1_1_constants.html#aee2afed3b06df5e3958f93cac94581a3',1,'CGUL::Math::Constants']]],
+  ['tera',['Tera',['../namespace_c_g_u_l_1_1_math_1_1_constants.html#a34ee38c9b5efec0ac6325fa5f7bb427c',1,'CGUL::Math::Constants']]],
   ['tess_5fcontrol_5fshader',['TESS_CONTROL_SHADER',['../namespace_c_g_u_l_1_1_g_l.html#a7673beb4224d15c42e1edc6111d7f103',1,'CGUL::GL']]],
   ['tess_5fevaluation_5fshader',['TESS_EVALUATION_SHADER',['../namespace_c_g_u_l_1_1_g_l.html#a078d8c852e20ae9622a7731bc7d936bd',1,'CGUL::GL']]],
   ['test',['Test',['../namespace_c_g_u_l_1_1_open_g_l.html#a02a4f63512dc7b59c6a5be310970cf62',1,'CGUL::OpenGL']]],
@@ -10,8 +11,9 @@ var searchData=
   ['texcoord2',['TEXCOORD2',['../namespace_c_g_u_l_1_1_g_l.html#aede0f32c0439732f19613f92a124e7c7',1,'CGUL::GL']]],
   ['texcoord3',['TEXCOORD3',['../namespace_c_g_u_l_1_1_g_l.html#a50463e6706903b2ce06d13eb19ff407f',1,'CGUL::GL']]],
   ['texcoord4',['TEXCOORD4',['../namespace_c_g_u_l_1_1_g_l.html#a8179a9d107b396ffdbaa2296d6ea1523',1,'CGUL::GL']]],
-  ['texture',['Texture',['../class_c_g_u_l_1_1_assimp_1_1_texture.html',1,'CGUL::Assimp']]],
   ['texture',['Texture',['../class_c_g_u_l_1_1_open_g_l_1_1_texture.html',1,'CGUL::OpenGL']]],
+  ['texture_2ecpp',['Texture.cpp',['../_texture_8cpp.html',1,'']]],
+  ['texture_2ehpp',['Texture.hpp',['../_texture_8hpp.html',1,'']]],
   ['texture_5f1d_5farray',['TEXTURE_1D_ARRAY',['../namespace_c_g_u_l_1_1_g_l.html#a46435ec27a26c7ba62290b5af2369a70',1,'CGUL::GL']]],
   ['texture_5f2d',['TEXTURE_2D',['../namespace_c_g_u_l_1_1_g_l.html#a9ce3ab0a45bd16e8152832cd5ac19f71',1,'CGUL::GL']]],
   ['texture_5fbuffer',['TEXTURE_BUFFER',['../namespace_c_g_u_l_1_1_g_l.html#a09a869d6b85402c5f727c1793aed7226',1,'CGUL::GL']]],
@@ -26,8 +28,8 @@ var searchData=
   ['texture_5frectangle',['TEXTURE_RECTANGLE',['../namespace_c_g_u_l_1_1_g_l.html#a5d8f41ecd0acac6d571bbe4baa965748',1,'CGUL::GL']]],
   ['thread_2ecpp',['Thread.cpp',['../_thread_8cpp.html',1,'']]],
   ['thread_2ehpp',['Thread.hpp',['../_thread_8hpp.html',1,'']]],
-  ['timer',['Timer',['../class_c_g_u_l_1_1_timer.html#a222cf7fc16767426e803cb85a96da284',1,'CGUL::Timer']]],
   ['timer',['Timer',['../class_c_g_u_l_1_1_timer.html',1,'CGUL']]],
+  ['timer',['Timer',['../class_c_g_u_l_1_1_timer.html#a222cf7fc16767426e803cb85a96da284',1,'CGUL::Timer']]],
   ['timer_2ecpp',['Timer.cpp',['../_timer_8cpp.html',1,'']]],
   ['timer_2ehpp',['Timer.hpp',['../_timer_8hpp.html',1,'']]],
   ['to',['To',['../class_c_g_u_l_1_1_string.html#a36fcd2c8f41d4fbdb1327808aa3b3394',1,'CGUL::String::To() const '],['../class_c_g_u_l_1_1_string.html#a5317421cc80f60e80c1ac9b68030d5e3',1,'CGUL::String::To(const T &amp;fallback) const ']]],
@@ -49,5 +51,9 @@ var searchData=
   ['triangles_5fadjacency',['TRIANGLES_ADJACENCY',['../namespace_c_g_u_l_1_1_g_l.html#ac3572bfb2a553aa2b4e61219fcddc8c5',1,'CGUL::GL']]],
   ['trim',['Trim',['../class_c_g_u_l_1_1_string.html#ad6c7622997b6b605d1c9c94396ff47a7',1,'CGUL::String']]],
   ['trimend',['TrimEnd',['../class_c_g_u_l_1_1_string.html#a1d48f0fdd37797b5a911663f9f246a93',1,'CGUL::String']]],
-  ['trimstart',['TrimStart',['../class_c_g_u_l_1_1_string.html#a814c1bcc4d31b088ffbad31ce279e06d',1,'CGUL::String']]]
+  ['trimstart',['TrimStart',['../class_c_g_u_l_1_1_string.html#a814c1bcc4d31b088ffbad31ce279e06d',1,'CGUL::String']]],
+  ['twinprime',['TwinPrime',['../namespace_c_g_u_l_1_1_math_1_1_constants.html#abf233c86f72d98d113d19571dffc0d0c',1,'CGUL::Math::Constants']]],
+  ['twoinvpi',['TwoInvPi',['../namespace_c_g_u_l_1_1_math_1_1_constants.html#ab3cf49bd5bb31c791d342aa2cb2cb79e',1,'CGUL::Math::Constants']]],
+  ['twoinvsqrtpi',['TwoInvSqrtPi',['../namespace_c_g_u_l_1_1_math_1_1_constants.html#a941ebda685ed26c8d7b536fdfb192ffc',1,'CGUL::Math::Constants']]],
+  ['twosqrteoverpi',['TwoSqrtEOverPi',['../namespace_c_g_u_l_1_1_math_1_1_constants.html#a960dc2fa88ddf0eba8270dfdf8066c65',1,'CGUL::Math::Constants']]]
 ];

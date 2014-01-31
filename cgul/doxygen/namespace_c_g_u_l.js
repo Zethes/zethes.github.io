@@ -1,6 +1,5 @@
 var namespace_c_g_u_l =
 [
-    [ "Assimp", "namespace_c_g_u_l_1_1_assimp.html", "namespace_c_g_u_l_1_1_assimp" ],
     [ "DataTypes", "namespace_c_g_u_l_1_1_data_types.html", null ],
     [ "File", "namespace_c_g_u_l_1_1_file.html", null ],
     [ "GL", "namespace_c_g_u_l_1_1_g_l.html", null ],
@@ -14,22 +13,10 @@ var namespace_c_g_u_l =
       [ "Object", "class_c_g_u_l_1_1_j_s_o_n_1_1_object.html", "class_c_g_u_l_1_1_j_s_o_n_1_1_object" ],
       [ "Value", "class_c_g_u_l_1_1_j_s_o_n_1_1_value.html", "class_c_g_u_l_1_1_j_s_o_n_1_1_value" ]
     ] ],
-    [ "Math", "namespace_c_g_u_l_1_1_math.html", null ],
+    [ "Math", "namespace_c_g_u_l_1_1_math.html", "namespace_c_g_u_l_1_1_math" ],
     [ "Memory", "namespace_c_g_u_l_1_1_memory.html", null ],
     [ "Network", "namespace_c_g_u_l_1_1_network.html", "namespace_c_g_u_l_1_1_network" ],
     [ "OpenGL", "namespace_c_g_u_l_1_1_open_g_l.html", "namespace_c_g_u_l_1_1_open_g_l" ],
-    [ "PortAudio", null, [
-      [ "Device", "class_c_g_u_l_1_1_port_audio_1_1_device.html", "class_c_g_u_l_1_1_port_audio_1_1_device" ],
-      [ "HostApi", "class_c_g_u_l_1_1_port_audio_1_1_host_api.html", "class_c_g_u_l_1_1_port_audio_1_1_host_api" ],
-      [ "HostError", "class_c_g_u_l_1_1_port_audio_1_1_host_error.html", "class_c_g_u_l_1_1_port_audio_1_1_host_error" ],
-      [ "InputStream", "class_c_g_u_l_1_1_port_audio_1_1_input_stream.html", "class_c_g_u_l_1_1_port_audio_1_1_input_stream" ],
-      [ "OutputStream", "class_c_g_u_l_1_1_port_audio_1_1_output_stream.html", "class_c_g_u_l_1_1_port_audio_1_1_output_stream" ],
-      [ "SawWave", "class_c_g_u_l_1_1_port_audio_1_1_saw_wave.html", "class_c_g_u_l_1_1_port_audio_1_1_saw_wave" ],
-      [ "SineWave", "class_c_g_u_l_1_1_port_audio_1_1_sine_wave.html", "class_c_g_u_l_1_1_port_audio_1_1_sine_wave" ],
-      [ "Stream", "class_c_g_u_l_1_1_port_audio_1_1_stream.html", "class_c_g_u_l_1_1_port_audio_1_1_stream" ],
-      [ "StreamData", "struct_c_g_u_l_1_1_port_audio_1_1_stream_data.html", "struct_c_g_u_l_1_1_port_audio_1_1_stream_data" ],
-      [ "StreamInfo", "class_c_g_u_l_1_1_port_audio_1_1_stream_info.html", "class_c_g_u_l_1_1_port_audio_1_1_stream_info" ]
-    ] ],
     [ "Array", "class_c_g_u_l_1_1_array.html", "class_c_g_u_l_1_1_array" ],
     [ "Container", "class_c_g_u_l_1_1_container.html", null ],
     [ "FixedList", "class_c_g_u_l_1_1_fixed_list.html", "class_c_g_u_l_1_1_fixed_list" ],
@@ -49,6 +36,7 @@ var namespace_c_g_u_l =
     [ "Image", "class_c_g_u_l_1_1_image.html", "class_c_g_u_l_1_1_image" ],
     [ "ImageHandler", "class_c_g_u_l_1_1_image_handler.html", "class_c_g_u_l_1_1_image_handler" ],
     [ "ImageLoader", "class_c_g_u_l_1_1_image_loader.html", "class_c_g_u_l_1_1_image_loader" ],
+    [ "Angle", "class_c_g_u_l_1_1_angle.html", "class_c_g_u_l_1_1_angle" ],
     [ "MatrixT", "struct_c_g_u_l_1_1_matrix_t.html", "struct_c_g_u_l_1_1_matrix_t" ],
     [ "QuaternionT", "struct_c_g_u_l_1_1_quaternion_t.html", "struct_c_g_u_l_1_1_quaternion_t" ],
     [ "Random", "class_c_g_u_l_1_1_random.html", "class_c_g_u_l_1_1_random" ],
@@ -57,6 +45,8 @@ var namespace_c_g_u_l =
     [ "Vector4T", "struct_c_g_u_l_1_1_vector4_t.html", "struct_c_g_u_l_1_1_vector4_t" ],
     [ "AutoRelease", "class_c_g_u_l_1_1_auto_release.html", "class_c_g_u_l_1_1_auto_release" ],
     [ "Event", "class_c_g_u_l_1_1_event.html", "class_c_g_u_l_1_1_event" ],
+    [ "FileFinder", "class_c_g_u_l_1_1_file_finder.html", "class_c_g_u_l_1_1_file_finder" ],
+    [ "Logger", "class_c_g_u_l_1_1_logger.html", "class_c_g_u_l_1_1_logger" ],
     [ "String", "class_c_g_u_l_1_1_string.html", "class_c_g_u_l_1_1_string" ],
     [ "Timer", "class_c_g_u_l_1_1_timer.html", "class_c_g_u_l_1_1_timer" ],
     [ "WindowKeyButtonEvent", "struct_c_g_u_l_1_1_window_key_button_event.html", "struct_c_g_u_l_1_1_window_key_button_event" ],

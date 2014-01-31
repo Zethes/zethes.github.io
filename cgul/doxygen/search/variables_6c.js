@@ -1,11 +1,30 @@
 var searchData=
 [
+  ['landauramanujan',['LandauRamanujan',['../namespace_c_g_u_l_1_1_math_1_1_constants.html#a9db16020dc1f0e3a28ddd077a3bba5c2',1,'CGUL::Math::Constants']]],
+  ['landaus',['Landaus',['../namespace_c_g_u_l_1_1_math_1_1_constants.html#a015092438bdd220bf7eab8655b677dab',1,'CGUL::Math::Constants']]],
+  ['laplacelimit',['LaplaceLimit',['../namespace_c_g_u_l_1_1_math_1_1_constants.html#a68089bfc37ee29ad85893aeb50ed6506',1,'CGUL::Math::Constants']]],
+  ['legendre',['Legendre',['../namespace_c_g_u_l_1_1_math_1_1_constants.html#a7ef92a567b56c6c2e988464eb79c45c3',1,'CGUL::Math::Constants']]],
+  ['lengyels',['Lengyels',['../namespace_c_g_u_l_1_1_math_1_1_constants.html#a0b381556a5711ff8ffef707162b578c2',1,'CGUL::Math::Constants']]],
   ['lequal',['LEQUAL',['../namespace_c_g_u_l_1_1_g_l.html#ad86c352477716fdefc67b2c61b1a3d82',1,'CGUL::GL']]],
   ['less',['LESS',['../namespace_c_g_u_l_1_1_g_l.html#a79d12e5ae21670bf47e11124e7d67bdb',1,'CGUL::GL']]],
+  ['levys',['Levys',['../namespace_c_g_u_l_1_1_math_1_1_constants.html#a45f791461ae515fb859042c6b5d6a546',1,'CGUL::Math::Constants']]],
+  ['liebssquareice',['LiebsSquareIce',['../namespace_c_g_u_l_1_1_math_1_1_constants.html#a74a253dc4ddeea0a7f0ba8604dd29336',1,'CGUL::Math::Constants']]],
   ['line_5floop',['LINE_LOOP',['../namespace_c_g_u_l_1_1_g_l.html#a27b6a6b9d09ac015acf03b4bcb62486a',1,'CGUL::GL']]],
   ['line_5fstrip',['LINE_STRIP',['../namespace_c_g_u_l_1_1_g_l.html#aedba99e1f4bafa21530c05d6e976956a',1,'CGUL::GL']]],
   ['line_5fstrip_5fadjacency',['LINE_STRIP_ADJACENCY',['../namespace_c_g_u_l_1_1_g_l.html#aaa9c7ca12b3e80b79fbb3468bd1354ab',1,'CGUL::GL']]],
   ['linear',['LINEAR',['../namespace_c_g_u_l_1_1_g_l.html#a87306a516d41edb765aab27bcce40767',1,'CGUL::GL']]],
   ['lines',['LINES',['../namespace_c_g_u_l_1_1_g_l.html#a80e2c38a5f7346916ab9e7d36df28494',1,'CGUL::GL']]],
-  ['lines_5fadjacency',['LINES_ADJACENCY',['../namespace_c_g_u_l_1_1_g_l.html#aec091ba18a1fb4e90f58725e6c84ef1f',1,'CGUL::GL']]]
+  ['lines_5fadjacency',['LINES_ADJACENCY',['../namespace_c_g_u_l_1_1_g_l.html#aec091ba18a1fb4e90f58725e6c84ef1f',1,'CGUL::GL']]],
+  ['ln10',['Ln10',['../namespace_c_g_u_l_1_1_math_1_1_constants.html#af98f16c30c1c415a50f620f0658c7ca9',1,'CGUL::Math::Constants']]],
+  ['ln2',['Ln2',['../namespace_c_g_u_l_1_1_math_1_1_constants.html#a7a0e3b99668bf9c8a933b7a815a7d1e4',1,'CGUL::Math::Constants']]],
+  ['ln2piover2',['Ln2PiOver2',['../namespace_c_g_u_l_1_1_math_1_1_constants.html#a47831c35fa605095392da8a05114c281',1,'CGUL::Math::Constants']]],
+  ['lnpi',['LnPi',['../namespace_c_g_u_l_1_1_math_1_1_constants.html#a85416c30f1ad0a69e018d305a350e266',1,'CGUL::Math::Constants']]],
+  ['lntauover2',['LnTauOver2',['../namespace_c_g_u_l_1_1_math_1_1_constants.html#a31f8cab81a440929473e93920d2ef3fe',1,'CGUL::Math::Constants']]],
+  ['log2e',['Log2E',['../namespace_c_g_u_l_1_1_math_1_1_constants.html#a8901d4b307b792d82e81fabceefe96b1',1,'CGUL::Math::Constants']]],
+  ['log2sqrteoverpi',['Log2SqrtEOverPi',['../namespace_c_g_u_l_1_1_math_1_1_constants.html#a355b630af656652fa04b7ef48649c404',1,'CGUL::Math::Constants']]],
+  ['loge',['LogE',['../namespace_c_g_u_l_1_1_math_1_1_constants.html#a538fd92208cae4dbd08842ba45883793',1,'CGUL::Math::Constants']]],
+  ['logsqrt2pi',['LogSqrt2Pi',['../namespace_c_g_u_l_1_1_math_1_1_constants.html#a6acf75bed470f62116ad7bb4b5089410',1,'CGUL::Math::Constants']]],
+  ['logsqrt2pie',['LogSqrt2PiE',['../namespace_c_g_u_l_1_1_math_1_1_constants.html#a642d5d2cf7c28dc70821c9bdcc9a15e1',1,'CGUL::Math::Constants']]],
+  ['logsqrttau',['LogSqrtTau',['../namespace_c_g_u_l_1_1_math_1_1_constants.html#aaa23dd86c170fca3dc7d1b57bc87a496',1,'CGUL::Math::Constants']]],
+  ['logsqrttaue',['LogSqrtTauE',['../namespace_c_g_u_l_1_1_math_1_1_constants.html#a482ab86baddd516900dddced24876ef6',1,'CGUL::Math::Constants']]]
 ];

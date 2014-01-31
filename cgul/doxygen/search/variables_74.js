@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['tau',['Tau',['../namespace_c_g_u_l_1_1_math_1_1_constants.html#aee2afed3b06df5e3958f93cac94581a3',1,'CGUL::Math::Constants']]],
+  ['tera',['Tera',['../namespace_c_g_u_l_1_1_math_1_1_constants.html#a34ee38c9b5efec0ac6325fa5f7bb427c',1,'CGUL::Math::Constants']]],
   ['tess_5fcontrol_5fshader',['TESS_CONTROL_SHADER',['../namespace_c_g_u_l_1_1_g_l.html#a7673beb4224d15c42e1edc6111d7f103',1,'CGUL::GL']]],
   ['tess_5fevaluation_5fshader',['TESS_EVALUATION_SHADER',['../namespace_c_g_u_l_1_1_g_l.html#a078d8c852e20ae9622a7731bc7d936bd',1,'CGUL::GL']]],
   ['texcoord1',['TEXCOORD1',['../namespace_c_g_u_l_1_1_g_l.html#af74ae66f3eadc4a23ad0166d6a6c6768',1,'CGUL::GL']]],
@@ -23,5 +25,9 @@ var searchData=
   ['triangle_5fstrip',['TRIANGLE_STRIP',['../namespace_c_g_u_l_1_1_g_l.html#a32f6f4d58cacb670a38903f0aed8efb9',1,'CGUL::GL']]],
   ['triangle_5fstrip_5fadjacency',['TRIANGLE_STRIP_ADJACENCY',['../namespace_c_g_u_l_1_1_g_l.html#a59d9fd62b271087d4f4f73386c369510',1,'CGUL::GL']]],
   ['triangles',['TRIANGLES',['../namespace_c_g_u_l_1_1_g_l.html#a73cba0a2bcbe307c7733b7be34f4a7d6',1,'CGUL::GL']]],
-  ['triangles_5fadjacency',['TRIANGLES_ADJACENCY',['../namespace_c_g_u_l_1_1_g_l.html#ac3572bfb2a553aa2b4e61219fcddc8c5',1,'CGUL::GL']]]
+  ['triangles_5fadjacency',['TRIANGLES_ADJACENCY',['../namespace_c_g_u_l_1_1_g_l.html#ac3572bfb2a553aa2b4e61219fcddc8c5',1,'CGUL::GL']]],
+  ['twinprime',['TwinPrime',['../namespace_c_g_u_l_1_1_math_1_1_constants.html#abf233c86f72d98d113d19571dffc0d0c',1,'CGUL::Math::Constants']]],
+  ['twoinvpi',['TwoInvPi',['../namespace_c_g_u_l_1_1_math_1_1_constants.html#ab3cf49bd5bb31c791d342aa2cb2cb79e',1,'CGUL::Math::Constants']]],
+  ['twoinvsqrtpi',['TwoInvSqrtPi',['../namespace_c_g_u_l_1_1_math_1_1_constants.html#a941ebda685ed26c8d7b536fdfb192ffc',1,'CGUL::Math::Constants']]],
+  ['twosqrteoverpi',['TwoSqrtEOverPi',['../namespace_c_g_u_l_1_1_math_1_1_constants.html#a960dc2fa88ddf0eba8270dfdf8066c65',1,'CGUL::Math::Constants']]]
 ];

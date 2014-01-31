@@ -1,17 +1,18 @@
 var class_c_g_u_l_1_1_random =
 [
-    [ "Random", "class_c_g_u_l_1_1_random.html#adcebbbbf0a31b4ecb372d421662f4a93", null ],
-    [ "Random", "class_c_g_u_l_1_1_random.html#a3a588281ff738cdb16c9104dc4c764be", null ],
-    [ "Random", "class_c_g_u_l_1_1_random.html#a646b27e19cd6877f21e4b36d45b2aa14", null ],
-    [ "ExponentialDist", "class_c_g_u_l_1_1_random.html#a9660219bf66abd2c40b610224a7b7060", null ],
-    [ "GetDecimal", "class_c_g_u_l_1_1_random.html#af4ff480c7f46dfa8795ad534c64090cb", null ],
-    [ "GetExponential", "class_c_g_u_l_1_1_random.html#a7c76a52c258796265ab217f4bd08b9cc", null ],
-    [ "GetInteger", "class_c_g_u_l_1_1_random.html#a45f4e0db726742cd9cd1f115cf9c3c77", null ],
-    [ "GetUniform", "class_c_g_u_l_1_1_random.html#a7b16b5abc1e600dec9dad1cb7a0b21ba", null ],
-    [ "GetWeibull", "class_c_g_u_l_1_1_random.html#af72a949b26ade8de97fb62cd74e80f22", null ],
-    [ "Normal", "class_c_g_u_l_1_1_random.html#a19a0b1795b642a230aaefbabe46fb309", null ],
-    [ "SetSeed", "class_c_g_u_l_1_1_random.html#ae603e4b8d84bd2d99ecff2a896ee8297", null ],
-    [ "TriangularDist", "class_c_g_u_l_1_1_random.html#ae149b48a881dadc3e50fcefd155b4301", null ],
-    [ "UniformDist", "class_c_g_u_l_1_1_random.html#a74f376207f68cfd8f990a3f1cadee53c", null ],
-    [ "WeibullDist", "class_c_g_u_l_1_1_random.html#a2da665bedca3d96328baefe13dd2f6f8", null ]
+    [ "Random", "class_c_g_u_l_1_1_random.html#aa184098c6fefcc3dbd909751225fdb73", null ],
+    [ "Random", "class_c_g_u_l_1_1_random.html#a46e518adbfd2f52ac1610cc07682f6a4", null ],
+    [ "Random", "class_c_g_u_l_1_1_random.html#ac55c7d7369c0e2a00d6db1fc6c71e7b9", null ],
+    [ "ExponentialDist", "class_c_g_u_l_1_1_random.html#a0c27a17625c700d92bf81d43c8002add", null ],
+    [ "GetDecimal", "class_c_g_u_l_1_1_random.html#a3e323b6ca041496af69b549740fa2288", null ],
+    [ "GetExponential", "class_c_g_u_l_1_1_random.html#a323d11525dc672b72935ad5e1a323c06", null ],
+    [ "GetInteger", "class_c_g_u_l_1_1_random.html#ae9556c014620e8555ca15dabf25ea04f", null ],
+    [ "GetString", "class_c_g_u_l_1_1_random.html#acc49bff33c902161e95279fe7b160d31", null ],
+    [ "GetUniform", "class_c_g_u_l_1_1_random.html#af99a1c1570c113ffad58febf1ae9e161", null ],
+    [ "GetWeibull", "class_c_g_u_l_1_1_random.html#a4837339b94539e22c4b8e72ebbdde5f7", null ],
+    [ "Normal", "class_c_g_u_l_1_1_random.html#aa5196b60f68247cb6c3bf50692862c30", null ],
+    [ "SetSeed", "class_c_g_u_l_1_1_random.html#ae576c1626e0415308459ce852cb903ad", null ],
+    [ "TriangularDist", "class_c_g_u_l_1_1_random.html#aaf2e579a6b344a0dd93a08c22d6d9cc8", null ],
+    [ "UniformDist", "class_c_g_u_l_1_1_random.html#aac2621051faeaeb123a29cb8d594f439", null ],
+    [ "WeibullDist", "class_c_g_u_l_1_1_random.html#a3e85c25f3f3abbce098d45f2ea29a177", null ]
 ];

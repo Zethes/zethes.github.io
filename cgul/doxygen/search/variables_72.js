@@ -1,6 +1,8 @@
 var searchData=
 [
   ['r',['r',['../struct_c_g_u_l_1_1_color_t.html#a292479ef111362ab9684d77d7fa4da1c',1,'CGUL::ColorT']]],
+  ['ramanujansoldner',['RamanujanSoldner',['../namespace_c_g_u_l_1_1_math_1_1_constants.html#a2c68eb5e91c2d9e4f8041c4bdaac8e4f',1,'CGUL::Math::Constants']]],
+  ['reciprocalfibonacci',['ReciprocalFibonacci',['../namespace_c_g_u_l_1_1_math_1_1_constants.html#adee6d7124fa449ac6a5b27818d06fd7f',1,'CGUL::Math::Constants']]],
   ['red',['RED',['../namespace_c_g_u_l_1_1_g_l.html#a7530696821b087fff111733004e303a7',1,'CGUL::GL']]],
   ['renderbuffer',['RENDERBUFFER',['../namespace_c_g_u_l_1_1_g_l.html#a5ccf506c4b8e74a5202d55778bf6a6b7',1,'CGUL::GL']]],
   ['renderer',['RENDERER',['../namespace_c_g_u_l_1_1_g_l.html#a488157e94ebf6f3377cf09f837557bd6',1,'CGUL::GL']]],

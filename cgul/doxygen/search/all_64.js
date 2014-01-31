@@ -1,9 +1,12 @@
 var searchData=
 [
   ['data',['data',['../struct_c_g_u_l_1_1_matrix_t.html#a98f15d2ef2b151958148c1801da3c360',1,'CGUL::MatrixT']]],
+  ['deca',['Deca',['../namespace_c_g_u_l_1_1_math_1_1_constants.html#a0ff0c60ae9d6c0694796bf21993d2cb9',1,'CGUL::Math::Constants']]],
+  ['deci',['Deci',['../namespace_c_g_u_l_1_1_math_1_1_constants.html#a43b785d30749361afa664b809419a3df',1,'CGUL::Math::Constants']]],
   ['decr',['DECR',['../namespace_c_g_u_l_1_1_g_l.html#a68ed915b7915f0b1ed12989f9af8fcb8',1,'CGUL::GL']]],
   ['decr_5fwrap',['DECR_WRAP',['../namespace_c_g_u_l_1_1_g_l.html#a7704d6e8eebf36c5445da71d992328a0',1,'CGUL::GL']]],
   ['defines_2ehpp',['Defines.hpp',['../_defines_8hpp.html',1,'']]],
+  ['degree',['Degree',['../namespace_c_g_u_l_1_1_math_1_1_constants.html#a3aa54db47a8fa708573f1abdc225b404',1,'CGUL::Math::Constants']]],
   ['degtorad',['DegToRad',['../namespace_c_g_u_l_1_1_math.html#a9d956324839363ae4951b51c321a3986',1,'CGUL::Math']]],
   ['delete',['Delete',['../class_c_g_u_l_1_1_open_g_l_1_1_shader.html#a436e70022212dd9b4eb944702e7252ca',1,'CGUL::OpenGL::Shader']]],
   ['deletefile',['DeleteFile',['../namespace_c_g_u_l_1_1_file.html#a0cb185699bed852d6950982e2fc75f57',1,'CGUL::File']]],
@@ -12,9 +15,6 @@ var searchData=
   ['depth_5fstencil_5fattachment',['DEPTH_STENCIL_ATTACHMENT',['../namespace_c_g_u_l_1_1_g_l.html#a3a9347b8cd906581549532bcecaada87',1,'CGUL::GL']]],
   ['depth_5ftest',['DEPTH_TEST',['../namespace_c_g_u_l_1_1_g_l.html#a8ca8d1a7cc9c9d2b0320dfd989ecbb1c',1,'CGUL::GL']]],
   ['description',['description',['../struct_c_g_u_l_1_1_network_1_1_adapter.html#ad0cb59e06ce545ad3abca755598c2719',1,'CGUL::Network::Adapter']]],
-  ['device',['Device',['../class_c_g_u_l_1_1_port_audio_1_1_device.html',1,'CGUL::PortAudio']]],
-  ['device_2ecpp',['Device.cpp',['../_device_8cpp.html',1,'']]],
-  ['device_2ehpp',['Device.hpp',['../_device_8hpp.html',1,'']]],
   ['dns',['DNS',['../class_c_g_u_l_1_1_network_1_1_d_n_s.html',1,'CGUL::Network']]],
   ['dns_2ecpp',['DNS.cpp',['../_d_n_s_8cpp.html',1,'']]],
   ['dns_2ehpp',['DNS.hpp',['../_d_n_s_8hpp.html',1,'']]],

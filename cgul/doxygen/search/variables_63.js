@@ -1,5 +1,9 @@
 var searchData=
 [
+  ['cahens',['Cahens',['../namespace_c_g_u_l_1_1_math_1_1_constants.html#acf666257efbae4a2f6b8bb6b59bca150',1,'CGUL::Math::Constants']]],
+  ['catalans',['Catalans',['../namespace_c_g_u_l_1_1_math_1_1_constants.html#a370d69229bfe0e6fc02cfb75f542f6f7',1,'CGUL::Math::Constants']]],
+  ['centi',['Centi',['../namespace_c_g_u_l_1_1_math_1_1_constants.html#ae5711a67eb28ec78d349090d7a55217a',1,'CGUL::Math::Constants']]],
+  ['characteristicimpedancevacuum',['CharacteristicImpedanceVacuum',['../namespace_c_g_u_l_1_1_math_1_1_constants.html#a8a6b61a98c35b2f22114e972b6a66eb2',1,'CGUL::Math::Constants']]],
   ['clamp_5fto_5fborder',['CLAMP_TO_BORDER',['../namespace_c_g_u_l_1_1_g_l.html#af638eb00ee721f6d4d9e4396e9103a2f',1,'CGUL::GL']]],
   ['clamp_5fto_5fedge',['CLAMP_TO_EDGE',['../namespace_c_g_u_l_1_1_g_l.html#aef2c338d7f5ba9b0c95bc36510012908',1,'CGUL::GL']]],
   ['color1',['COLOR1',['../namespace_c_g_u_l_1_1_g_l.html#a81094000d68512cf7fbcb42bfac18660',1,'CGUL::GL']]],

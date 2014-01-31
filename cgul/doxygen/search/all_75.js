@@ -10,8 +10,9 @@ var searchData=
   ['uniform_5fbuffer',['UNIFORM_BUFFER',['../namespace_c_g_u_l_1_1_g_l.html#ad231a7c11744b874094b324b8f56d683',1,'CGUL::GL']]],
   ['unitw',['unitW',['../struct_c_g_u_l_1_1_vector4_t.html#af677ac37ac9865dec974b9375a891479',1,'CGUL::Vector4T']]],
   ['unitx',['unitX',['../struct_c_g_u_l_1_1_vector2_t.html#a94b413f8d509f57a7827ae50b99f6c49',1,'CGUL::Vector2T::unitX()'],['../struct_c_g_u_l_1_1_vector3_t.html#af8b5fb663ecd4c43b3895561d7cdbfd5',1,'CGUL::Vector3T::unitX()'],['../struct_c_g_u_l_1_1_vector4_t.html#a40c9942b1e0a509bada136c1a0bd53d6',1,'CGUL::Vector4T::unitX()']]],
-  ['unity',['unitY',['../struct_c_g_u_l_1_1_vector2_t.html#a16ac769415d2817c3639a7e3c6ee89cd',1,'CGUL::Vector2T::unitY()'],['../struct_c_g_u_l_1_1_vector3_t.html#adf913250ded288f39e72d2a0e6cfe1d5',1,'CGUL::Vector3T::unitY()'],['../struct_c_g_u_l_1_1_vector4_t.html#ad61c85aa177e13c4ba8cff9f724a4f68',1,'CGUL::Vector4T::unitY()']]],
+  ['unity',['unitY',['../struct_c_g_u_l_1_1_vector2_t.html#a16ac769415d2817c3639a7e3c6ee89cd',1,'CGUL::Vector2T::unitY()'],['../struct_c_g_u_l_1_1_vector3_t.html#adf913250ded288f39e72d2a0e6cfe1d5',1,'CGUL::Vector3T::unitY()'],['../struct_c_g_u_l_1_1_vector4_t.html#ad61c85aa177e13c4ba8cff9f724a4f68',1,'CGUL::Vector4T::unitY()'],['../namespace_c_g_u_l_1_1_math_1_1_constants.html#a18a1070127915193336b643af33a1c7e',1,'CGUL::Math::Constants::Unity()']]],
   ['unitz',['unitZ',['../struct_c_g_u_l_1_1_vector3_t.html#a7c5098178629a84897486f60f2492ba1',1,'CGUL::Vector3T::unitZ()'],['../struct_c_g_u_l_1_1_vector4_t.html#a55be071b347fb798dcc888d31748a9c4',1,'CGUL::Vector4T::unitZ()']]],
+  ['universalparabolic',['UniversalParabolic',['../namespace_c_g_u_l_1_1_math_1_1_constants.html#ad88d604e3b02d0714c6a28cac83b0f26',1,'CGUL::Math::Constants']]],
   ['unsigned_5fbyte',['UNSIGNED_BYTE',['../namespace_c_g_u_l_1_1_g_l.html#a844a91fc57b45d6e58e568cd08651827',1,'CGUL::GL']]],
   ['unsigned_5fbyte_5f2_5f3_5f3_5frev',['UNSIGNED_BYTE_2_3_3_REV',['../namespace_c_g_u_l_1_1_g_l.html#afb7334aa77131a9a9a0ab7ac5720cfac',1,'CGUL::GL']]],
   ['unsigned_5fbyte_5f3_5f3_5f2',['UNSIGNED_BYTE_3_3_2',['../namespace_c_g_u_l_1_1_g_l.html#ab456bca46cf623fbc7be1a5e921d3066',1,'CGUL::GL']]],
@@ -28,8 +29,5 @@ var searchData=
   ['unsigned_5fshort_5f5_5f6_5f5',['UNSIGNED_SHORT_5_6_5',['../namespace_c_g_u_l_1_1_g_l.html#a7f506ba833cbb988914ac3f2113ab867',1,'CGUL::GL']]],
   ['unsigned_5fshort_5f5_5f6_5f5_5frev',['UNSIGNED_SHORT_5_6_5_REV',['../namespace_c_g_u_l_1_1_g_l.html#af7f8fc226cc7673ff7b79ed86de10ec8',1,'CGUL::GL']]],
   ['update',['Update',['../class_c_g_u_l_1_1_window.html#a799e7ebfcca7b15e48385a6464420874',1,'CGUL::Window']]],
-  ['ushort',['UShort',['../namespace_c_g_u_l.html#a6c320c4bf0f65e3baa541a03c1aefc39',1,'CGUL']]],
-  ['uvtransform',['UVTransform',['../class_c_g_u_l_1_1_assimp_1_1_u_v_transform.html',1,'CGUL::Assimp']]],
-  ['uvtransform_2ecpp',['UVTransform.cpp',['../_u_v_transform_8cpp.html',1,'']]],
-  ['uvtransform_2ehpp',['UVTransform.hpp',['../_u_v_transform_8hpp.html',1,'']]]
+  ['ushort',['UShort',['../namespace_c_g_u_l.html#a6c320c4bf0f65e3baa541a03c1aefc39',1,'CGUL']]]
 ];

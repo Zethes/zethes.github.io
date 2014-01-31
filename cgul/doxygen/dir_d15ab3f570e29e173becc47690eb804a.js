@@ -30,7 +30,10 @@ var dir_d15ab3f570e29e173becc47690eb804a =
     [ "Shader.hpp", "_shader_8hpp.html", [
       [ "Shader", "class_c_g_u_l_1_1_open_g_l_1_1_shader.html", "class_c_g_u_l_1_1_open_g_l_1_1_shader" ]
     ] ],
-    [ "Texture.hpp", "_open_g_l_2_texture_8hpp_source.html", null ],
+    [ "Texture.cpp", "_texture_8cpp.html", null ],
+    [ "Texture.hpp", "_texture_8hpp.html", [
+      [ "Texture", "class_c_g_u_l_1_1_open_g_l_1_1_texture.html", "class_c_g_u_l_1_1_open_g_l_1_1_texture" ]
+    ] ],
     [ "VertexArray.cpp", "_vertex_array_8cpp.html", null ],
     [ "VertexArray.hpp", "_vertex_array_8hpp.html", [
       [ "VertexArray", "class_c_g_u_l_1_1_open_g_l_1_1_vertex_array.html", "class_c_g_u_l_1_1_open_g_l_1_1_vertex_array" ]

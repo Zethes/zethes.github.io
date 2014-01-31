@@ -2,6 +2,8 @@ var searchData=
 [
   ['makehsl',['MakeHSL',['../struct_c_g_u_l_1_1_color_t.html#a81159b319b3bd87942475fa391ab07f9',1,'CGUL::ColorT']]],
   ['makehsv',['MakeHSV',['../struct_c_g_u_l_1_1_color_t.html#a8bf353209fa4bf1872c39250cad29af8',1,'CGUL::ColorT']]],
+  ['makeidentity',['MakeIdentity',['../struct_c_g_u_l_1_1_matrix_t.html#ad66133f5c641483cfc4dc5872e8679d2',1,'CGUL::MatrixT']]],
+  ['makeinvalid',['MakeInvalid',['../class_c_g_u_l_1_1_network_1_1_i_p_address.html#a703542ed2e20610dd7f4b75b452528ef',1,'CGUL::Network::IPAddress']]],
   ['makelookat',['MakeLookAt',['../struct_c_g_u_l_1_1_matrix_t.html#afb93ecc1d116001f4d7693d5f92aa7a5',1,'CGUL::MatrixT']]],
   ['makeortho',['MakeOrtho',['../struct_c_g_u_l_1_1_matrix_t.html#a0854117377475833d7a6c89f0786e515',1,'CGUL::MatrixT']]],
   ['makeortho2d',['MakeOrtho2D',['../struct_c_g_u_l_1_1_matrix_t.html#a8085e87410ad266f130e5ee7c161df80',1,'CGUL::MatrixT']]],

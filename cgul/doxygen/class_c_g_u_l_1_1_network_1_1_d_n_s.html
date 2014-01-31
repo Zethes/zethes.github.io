@@ -28,7 +28,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="doxygenlogo.png"/></td>
     <td style="padding-left: 0.5em;">
-    <div id="projectbrief">v0.1.7</div>
+    <div id="projectbrief">v0.1.8</div>
     </td>
  </tr>
  </tbody>
@@ -120,21 +120,24 @@ $(document).ready(function(){initNavTree('class_c_g_u_l_1_1_network_1_1_d_n_s.ht
 Public Types</h2></td></tr>
 <tr class="memitem:adcd541b5edf8537ffcfeeacd48ec0500"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><b>Filter</b> { <b>IPV4</b>, 
 <b>IPV6</b>, 
-<b>ANY</b>
+<b>UNSPECIFIED</b>
  }</td></tr>
 <tr class="separator:adcd541b5edf8537ffcfeeacd48ec0500"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:ab1715c07549990c4e0d4abdf6896a17e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab1715c07549990c4e0d4abdf6896a17e"></a>
-static <a class="el" href="classstd_1_1vector.html">std::vector</a>&lt; <a class="el" href="class_c_g_u_l_1_1_string.html">CGUL::String</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>Lookup</b> (const <a class="el" href="class_c_g_u_l_1_1_string.html">CGUL::String</a> &amp;host, Filter filter=ANY)</td></tr>
-<tr class="separator:ab1715c07549990c4e0d4abdf6896a17e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a207faf60c71de2d0824cb30eb35d27a6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a207faf60c71de2d0824cb30eb35d27a6"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><b>Lookup</b> (const <a class="el" href="class_c_g_u_l_1_1_string.html">CGUL::String</a> &amp;host, <a class="el" href="class_c_g_u_l_1_1_list.html">List</a>&lt; <a class="el" href="class_c_g_u_l_1_1_network_1_1_i_p_address.html">IPAddress</a> &gt; *addresses)</td></tr>
+<tr class="separator:a207faf60c71de2d0824cb30eb35d27a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acac6430b1e6f2c901e74ebf854daa90c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acac6430b1e6f2c901e74ebf854daa90c"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><b>Lookup</b> (const <a class="el" href="class_c_g_u_l_1_1_string.html">CGUL::String</a> &amp;host, Filter filter, <a class="el" href="class_c_g_u_l_1_1_list.html">List</a>&lt; <a class="el" href="class_c_g_u_l_1_1_network_1_1_i_p_address.html">IPAddress</a> &gt; *addresses)</td></tr>
+<tr class="separator:acac6430b1e6f2c901e74ebf854daa90c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Utility class used to perform <a class="el" href="class_c_g_u_l_1_1_network_1_1_d_n_s.html" title="Utility class used to perform DNS lookups.">DNS</a> lookups. </p>
 </div><hr/>The documentation for this class was generated from the following files:<ul>
-<li>C:/Users/Joshua/Projamin/CGULMath/src/CGUL/Network/<a class="el" href="_d_n_s_8hpp_source.html">DNS.hpp</a></li>
-<li>C:/Users/Joshua/Projamin/CGULMath/src/CGUL/Network/<a class="el" href="_d_n_s_8cpp.html">DNS.cpp</a></li>
+<li>C:/Programming/Cpp/Zethes/CGUL/src/CGUL/Network/<a class="el" href="_d_n_s_8hpp_source.html">DNS.hpp</a></li>
+<li>C:/Programming/Cpp/Zethes/CGUL/src/CGUL/Network/<a class="el" href="_d_n_s_8cpp.html">DNS.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -142,7 +145,7 @@ static <a class="el" href="classstd_1_1vector.html">std::vector</a>&lt; <a class
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_c_g_u_l.html">CGUL</a></li><li class="navelem"><a class="el" href="namespace_c_g_u_l_1_1_network.html">Network</a></li><li class="navelem"><a class="el" href="class_c_g_u_l_1_1_network_1_1_d_n_s.html">DNS</a></li>
-    <li class="footer">Generated on Sun Dec 22 2013 20:51:40 by
+    <li class="footer">Generated on Thu Jan 30 2014 18:27:54 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.2 </li>
   </ul>

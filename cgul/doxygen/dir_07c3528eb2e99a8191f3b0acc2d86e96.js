@@ -1,5 +1,10 @@
 var dir_07c3528eb2e99a8191f3b0acc2d86e96 =
 [
+    [ "Angle.cpp", "_angle_8cpp.html", null ],
+    [ "Angle.hpp", "_angle_8hpp.html", [
+      [ "Angle", "class_c_g_u_l_1_1_angle.html", "class_c_g_u_l_1_1_angle" ]
+    ] ],
+    [ "Constants.hpp", "_constants_8hpp_source.html", null ],
     [ "Math.hpp", "_math_8hpp.html", "_math_8hpp" ],
     [ "Math_Implement.hpp", "_math___implement_8hpp.html", null ],
     [ "Matrix.hpp", "_matrix_8hpp.html", "_matrix_8hpp" ],

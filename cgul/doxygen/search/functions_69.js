@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['identity',['Identity',['../struct_c_g_u_l_1_1_matrix_t.html#a1fe3e116ae919b6574e3ed3043702f1a',1,'CGUL::MatrixT']]],
   ['inepsilon',['InEpsilon',['../namespace_c_g_u_l_1_1_math.html#ab2989577d9b33cb1645bfb743aafe886',1,'CGUL::Math']]],
+  ['invalid',['Invalid',['../class_c_g_u_l_1_1_network_1_1_i_p_address.html#a98994cf1829afb0b29e94c6b03665b3a',1,'CGUL::Network::IPAddress']]],
   ['inverse',['Inverse',['../struct_c_g_u_l_1_1_matrix_t.html#af7a23789a08f2622240bc2d7dbc21456',1,'CGUL::MatrixT']]],
   ['ipaddress',['IPAddress',['../class_c_g_u_l_1_1_network_1_1_i_p_address.html#aa9e72c7db7ccbe6cf1684751b2f76c95',1,'CGUL::Network::IPAddress::IPAddress()'],['../class_c_g_u_l_1_1_network_1_1_i_p_address.html#ad06e369d9f7422968dcfbed9a06c5ec0',1,'CGUL::Network::IPAddress::IPAddress(UInt32 address)'],['../class_c_g_u_l_1_1_network_1_1_i_p_address.html#a11df64d69e39dc15fa8b6eafe15b632e',1,'CGUL::Network::IPAddress::IPAddress(UInt64 *address)'],['../class_c_g_u_l_1_1_network_1_1_i_p_address.html#a379b8a93841da2f7838955269a894c55',1,'CGUL::Network::IPAddress::IPAddress(const CGUL::String &amp;ip)'],['../class_c_g_u_l_1_1_network_1_1_i_p_address.html#a6ca02416b9390704507c8646064f5ee1',1,'CGUL::Network::IPAddress::IPAddress(const CGUL::String &amp;ip, UInt32 type)']]],
   ['is',['Is',['../class_c_g_u_l_1_1_string.html#aa3e9458cbf7d2d4691a693549f080bb2',1,'CGUL::String']]],

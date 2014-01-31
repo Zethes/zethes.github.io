@@ -19,6 +19,7 @@ var dir_4c7832bda75a9b702f2e9a8326e78d90 =
     [ "SocketTCP.hpp", "_socket_t_c_p_8hpp.html", [
       [ "SocketTCP", "class_c_g_u_l_1_1_network_1_1_socket_t_c_p.html", "class_c_g_u_l_1_1_network_1_1_socket_t_c_p" ]
     ] ],
+    [ "SocketTCP_Implement.hpp", "_socket_t_c_p___implement_8hpp.html", null ],
     [ "SocketUDP.cpp", "_socket_u_d_p_8cpp.html", null ],
     [ "SocketUDP.hpp", "_socket_u_d_p_8hpp.html", [
       [ "SocketUDP", "class_c_g_u_l_1_1_network_1_1_socket_u_d_p.html", "class_c_g_u_l_1_1_network_1_1_socket_u_d_p" ]

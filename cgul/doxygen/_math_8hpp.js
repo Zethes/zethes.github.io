@@ -11,7 +11,7 @@ var _math_8hpp =
     [ "Cos", "_math_8hpp.html#ac01054f33e4c3ffe7f911d903072d198", null ],
     [ "Cosh", "_math_8hpp.html#adad30dce8ca253b23c169dbd3559c28c", null ],
     [ "DegToRad", "_math_8hpp.html#a9d956324839363ae4951b51c321a3986", null ],
-    [ "E", "_math_8hpp.html#a5431bdc03a12e6027166291b05693452", null ],
+    [ "Exp", "_math_8hpp.html#a9b23be5b920f1b779240b9d64ffe4483", null ],
     [ "Floor", "_math_8hpp.html#aeaf69c850dcde39d46d003bd4aae6523", null ],
     [ "InEpsilon", "_math_8hpp.html#ab2989577d9b33cb1645bfb743aafe886", null ],
     [ "IsPowerOfTwo", "_math_8hpp.html#a7443498b1e6fc34702b1e749dd4edd49", null ],
@@ -22,7 +22,6 @@ var _math_8hpp =
     [ "Min", "_math_8hpp.html#a6e61d8bd293cbd4f8acfc63e764aa83c", null ],
     [ "Min", "_math_8hpp.html#a2ea1f701aa4548a804eb3e66834c4ace", null ],
     [ "Mod", "_math_8hpp.html#a1eeb251108c1ab6e9b02ea20f7fb0513", null ],
-    [ "Pi", "_math_8hpp.html#a6b5950190ae0adf6cde028604f57b3c2", null ],
     [ "Pow", "_math_8hpp.html#a07e1faf2e37dbafd51cea272f1392eed", null ],
     [ "RadToDeg", "_math_8hpp.html#ad853e9f1f709b6e25e8f7051ec327fa6", null ],
     [ "Round", "_math_8hpp.html#a46d3660cbbcd109b049a4acfa074ac6b", null ],
@@ -31,7 +30,7 @@ var _math_8hpp =
     [ "Sinh", "_math_8hpp.html#a5c5034be9d78f0fd6dd709a68dedc591", null ],
     [ "Sqr", "_math_8hpp.html#a9e6409d066b37b7a91db6652252547e5", null ],
     [ "Sqrt", "_math_8hpp.html#aabe42f02ced412b8bf7aaa84f1cf0fd9", null ],
+    [ "StandardDeviation", "_math_8hpp.html#a596fca7608f372976f683628787c1762", null ],
     [ "Tan", "_math_8hpp.html#adcd2c33ad5a9dc301dfefd368a8b84d3", null ],
-    [ "Tanh", "_math_8hpp.html#afb1aafdb27ae2ace0079b190ebc60e58", null ],
-    [ "Tau", "_math_8hpp.html#af4ccd3ae64e654ced887204119dced26", null ]
+    [ "Tanh", "_math_8hpp.html#afb1aafdb27ae2ace0079b190ebc60e58", null ]
 ];

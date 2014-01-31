@@ -2,7 +2,6 @@ var searchData=
 [
   ['tan',['Tan',['../namespace_c_g_u_l_1_1_math.html#adcd2c33ad5a9dc301dfefd368a8b84d3',1,'CGUL::Math']]],
   ['tanh',['Tanh',['../namespace_c_g_u_l_1_1_math.html#afb1aafdb27ae2ace0079b190ebc60e58',1,'CGUL::Math']]],
-  ['tau',['Tau',['../namespace_c_g_u_l_1_1_math.html#af4ccd3ae64e654ced887204119dced26',1,'CGUL::Math']]],
   ['test',['Test',['../namespace_c_g_u_l_1_1_open_g_l.html#a02a4f63512dc7b59c6a5be310970cf62',1,'CGUL::OpenGL']]],
   ['timer',['Timer',['../class_c_g_u_l_1_1_timer.html#a222cf7fc16767426e803cb85a96da284',1,'CGUL::Timer']]],
   ['to',['To',['../class_c_g_u_l_1_1_string.html#a36fcd2c8f41d4fbdb1327808aa3b3394',1,'CGUL::String::To() const '],['../class_c_g_u_l_1_1_string.html#a5317421cc80f60e80c1ac9b68030d5e3',1,'CGUL::String::To(const T &amp;fallback) const ']]],
