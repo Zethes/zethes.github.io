@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['building_20jatta',['Building Jatta',['../building.html',1,'']]]
+  ['building_20cgul',['Building CGUL',['../building.html',1,'']]]
 ];

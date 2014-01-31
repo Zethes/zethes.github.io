@@ -1,8 +1,8 @@
 var NAVTREE =
 [
-  [ "Jatta", "index.html", [
+  [ "CGUL", "index.html", [
     [ "Acknowledgements", "acknowledgements.html", null ],
-    [ "Building Jatta", "building.html", [
+    [ "Building CGUL", "building.html", [
       [ "Requirements", "building.html#requirements", [
         [ "CMake", "building.html#cmake", null ],
         [ "Libraries", "building.html#libraries", null ]
@@ -19,7 +19,7 @@ var NAVTREE =
       [ "Customizing the Build", "building.html#customize", [
         [ "CMake Cache Editors", "building.html#cmake_cache", null ]
       ] ],
-      [ "Installing Jatta", "building.html#installing", [
+      [ "Installing CGUL", "building.html#installing", [
         [ "Modifying Cache", "building.html#modifying_cache", null ],
         [ "Cache Variables", "building.html#cache_variables", null ]
       ] ]

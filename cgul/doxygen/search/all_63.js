@@ -55,6 +55,7 @@ var searchData=
   ['file',['File',['../namespace_c_g_u_l_1_1_file.html',1,'CGUL']]],
   ['gl',['GL',['../namespace_c_g_u_l_1_1_g_l.html',1,'CGUL']]],
   ['imageformats',['ImageFormats',['../namespace_c_g_u_l_1_1_image_formats.html',1,'CGUL']]],
+  ['cgul',['CGUL',['../index.html',1,'']]],
   ['ipaddresstype',['IPAddressType',['../namespace_c_g_u_l_1_1_network_1_1_i_p_address_type.html',1,'CGUL::Network']]],
   ['math',['Math',['../namespace_c_g_u_l_1_1_math.html',1,'CGUL']]],
   ['memory',['Memory',['../namespace_c_g_u_l_1_1_memory.html',1,'CGUL']]],

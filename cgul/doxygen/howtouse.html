@@ -98,24 +98,24 @@ $(document).ready(function(){initNavTree('howtouse.html','');});
 <div class="title">How to Use </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>Jatta is currently undergoing a lot of development and has no official builds, and the following is subject to change and only covers rather broad setup instructions.</p>
-<p><b>Building and installing Jatta</b></p>
-<p>First we need to obtain the latest source code from github (some functionality may be missing) <code> git clone <a href="https://github.com/Zethes/Jatta">https://github.com/Zethes/Jatta</a> cd Jatta </code></p>
-<p>Jatta uses third-party libraries and those must be handled before we can build. Luckily for you, we have provided several choices for you to download pre-built libraries on the Download page. Just download the dependency of your choosing and extract the archive into Jatta's directory (Above the 'src' directory).</p>
-<p>Jatta's build process is powered by CMake and we recommend you build outside of the source directory. <code> mkdir build &amp;&amp; cd build cmake -G &lt;BUILD_TYPE&gt; .. make &amp;&amp; make install </code></p>
+<div class="textblock"><p><a class="el" href="namespace_c_g_u_l.html" title="General utility library.">CGUL</a> is currently undergoing a lot of development and has no official builds, and the following is subject to change and only covers rather broad setup instructions.</p>
+<p><b>Building and installing <a class="el" href="namespace_c_g_u_l.html" title="General utility library.">CGUL</a></b></p>
+<p>First we need to obtain the latest source code from github (some functionality may be missing) <code> git clone <a href="https://github.com/Zethes/CGUL">https://github.com/Zethes/CGUL</a> cd <a class="el" href="namespace_c_g_u_l.html" title="General utility library.">CGUL</a> </code></p>
+<p><a class="el" href="namespace_c_g_u_l.html" title="General utility library.">CGUL</a> uses third-party libraries and those must be handled before we can build. Luckily for you, we have provided several choices for you to download pre-built libraries on the Download page. Just download the dependency of your choosing and extract the archive into <a class="el" href="namespace_c_g_u_l.html" title="General utility library.">CGUL</a>'s directory (Above the 'src' directory).</p>
+<p><a class="el" href="namespace_c_g_u_l.html" title="General utility library.">CGUL</a>'s build process is powered by CMake and we recommend you build outside of the source directory. <code> mkdir build &amp;&amp; cd build cmake -G &lt;BUILD_TYPE&gt; .. make &amp;&amp; make install </code></p>
 <p>CMake provides an easy way to provide cross-compilation on many machines without having to write individual build files. For more information on what to put in for &lt;BUILD_TYPE&gt; see <a href="http://www.cmake.org/Wiki/CMake_Generator_Specific_Information">http://www.cmake.org/Wiki/CMake_Generator_Specific_Information</a> for more information.</p>
 <p><b>Building the examples</b></p>
 <p><b>YOU MUST HAVE BUILT AND INSTALLED <a class="el" href="namespace_c_g_u_l.html" title="General utility library.">CGUL</a> TO BUILD THE EXAMPLES</b></p>
-<p>At the moment, each example must be built seperately. These steps are the same for all examples and are very similar to building Jatta itself.</p>
-<p>Begin by simply navigating to the desired example's directory inside the terminal of your choosing. For this example we'll be using the window example. <code> git clone <a href="https://github.com/Zethes/Jatta">https://github.com/Zethes/Jatta</a> cd Jatta/examples cd Graphics/window </code></p>
-<p>Similar to building Jatta, we recommend building outside of the source directory. <code> mkdir build &amp;&amp; cd build cmake -G &lt;BUILD_TYPE&gt; .. make </code></p>
+<p>At the moment, each example must be built seperately. These steps are the same for all examples and are very similar to building <a class="el" href="namespace_c_g_u_l.html" title="General utility library.">CGUL</a> itself.</p>
+<p>Begin by simply navigating to the desired example's directory inside the terminal of your choosing. For this example we'll be using the window example. <code> git clone <a href="https://github.com/Zethes/CGUL">https://github.com/Zethes/CGUL</a> cd CGUL/examples cd Graphics/window </code></p>
+<p>Similar to building <a class="el" href="namespace_c_g_u_l.html" title="General utility library.">CGUL</a>, we recommend building outside of the source directory. <code> mkdir build &amp;&amp; cd build cmake -G &lt;BUILD_TYPE&gt; .. make </code></p>
 <p>You should now have an executable file inside your current work directory for the example. </p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Jan 30 2014 18:27:53 by
+    <li class="footer">Generated on Thu Jan 30 2014 18:41:31 by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.2 </li>
   </ul>

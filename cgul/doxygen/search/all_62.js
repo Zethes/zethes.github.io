@@ -14,6 +14,6 @@ var searchData=
   ['buffer',['Buffer',['../class_c_g_u_l_1_1_open_g_l_1_1_buffer.html',1,'CGUL::OpenGL']]],
   ['buffer_2ecpp',['Buffer.cpp',['../_buffer_8cpp.html',1,'']]],
   ['buffer_2ehpp',['Buffer.hpp',['../_buffer_8hpp.html',1,'']]],
-  ['building_20jatta',['Building Jatta',['../building.html',1,'']]],
+  ['building_20cgul',['Building CGUL',['../building.html',1,'']]],
   ['byte',['BYTE',['../namespace_c_g_u_l_1_1_g_l.html#ac8198fc22d667f302b66fe33481553f0',1,'CGUL::GL::BYTE()'],['../namespace_c_g_u_l.html#a9177fa52fe6e30a5cb53cecf61d913ff',1,'CGUL::Byte()']]]
 ];
