@@ -15,6 +15,7 @@ var _math_8hpp =
     [ "Floor", "_math_8hpp.html#aeaf69c850dcde39d46d003bd4aae6523", null ],
     [ "InEpsilon", "_math_8hpp.html#ab2989577d9b33cb1645bfb743aafe886", null ],
     [ "IsPowerOfTwo", "_math_8hpp.html#a7443498b1e6fc34702b1e749dd4edd49", null ],
+    [ "Lerp", "_math_8hpp.html#af01bd55f35c301225e5a25104811d5ff", null ],
     [ "Ln", "_math_8hpp.html#a15aded80f5182b0fd839ae03b2c20819", null ],
     [ "Log", "_math_8hpp.html#a2ac5df36b0f040252797b3487295796f", null ],
     [ "Max", "_math_8hpp.html#ac7df01a4970e243bb2cdea16ffe6a79d", null ],

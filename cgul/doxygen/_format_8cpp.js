@@ -1,6 +1,7 @@
 var _format_8cpp =
 [
     [ "CreateImageFormat", "_format_8cpp.html#a3f7ab0e8d41cbd2c37e7fa2d208df3c5", null ],
+    [ "GRAYSCALE", "_format_8cpp.html#a2adb361d2d3708f6dc95b8f8ea1221e4", null ],
     [ "R16", "_format_8cpp.html#a00fe9cdc15f69ba5da3fb2acf722b6cd", null ],
     [ "R3_G3_B2", "_format_8cpp.html#a16ef84d3935eab99f28514ebc2e9baaf", null ],
     [ "R8", "_format_8cpp.html#aa6dd1a8b42e21053b953a27e8c1819b9", null ],

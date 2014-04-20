@@ -6,5 +6,7 @@ var _exception_8hpp =
     [ "IMAGE", "_exception_8hpp.html#ac831449122a4403ee39a2b848eb8adeaa045fc2601cc89a94bdb2c2f675e32adc", null ],
     [ "NETWORK", "_exception_8hpp.html#ac831449122a4403ee39a2b848eb8adeaa983a5fc471088eb0b8e8f609b8c726bd", null ],
     [ "FILE", "_exception_8hpp.html#ac831449122a4403ee39a2b848eb8adeaa34e8d910469ebe6ca562cfce7e41cabc", null ],
-    [ "OPENGL", "_exception_8hpp.html#ac831449122a4403ee39a2b848eb8adeaa1aad69f5543c5c64ce11e6af27c458d5", null ]
+    [ "OPENGL", "_exception_8hpp.html#ac831449122a4403ee39a2b848eb8adeaa1aad69f5543c5c64ce11e6af27c458d5", null ],
+    [ "WINDOW", "_exception_8hpp.html#ac831449122a4403ee39a2b848eb8adeaacd2685b2073338a9861504cabf6f897f", null ],
+    [ "STRING", "_exception_8hpp.html#ac831449122a4403ee39a2b848eb8adeaa6c18b02a757d6d1aa149dcb453c5e844", null ]
 ];
